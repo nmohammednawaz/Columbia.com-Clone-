@@ -1,0 +1,121 @@
+.accounts_main{
+    width: 95%;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.accounts_main > h1{
+    font-weight: bold;
+}
+.image-with-text{
+    width: 95%;
+    background-image: url("https://columbia.scene7.com/is/image/ColumbiaSportswear2/12-26_COL_US_Q1_CGREvergreenRefresh_CGRMyAccount_V5_LG?$aem_pjpeg$");
+    height: 50vh;
+    background-position: 100%;
+    border: 1px solid black;
+    padding-left: 5%;
+    padding-top: 60px;
+    color: white;
+}
+.image-with-text > h1{
+    line-height: 10px;
+    font-size: 36px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.image-with-text > button{
+    width: 10%;
+    height: 40px;
+    font-size: 12px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.accounts_main > img{
+    width: 100%;
+}
+.filter-and-display{
+    display: flex;
+    margin-bottom: 60px;
+}
+.filter-side{
+    width: 24%;
+    margin: 30px 50px 8px 50px;
+}
+.filter-side > p{
+    font-size: 14px;
+}
+.filter-side > p > a{
+    color: black;
+}
+#select-filter > button{
+    display: block;
+    width: 100%;
+    height: 56px;
+    text-align: left;
+    padding-left: 10%;
+    background-color: white;
+    font-weight: bolder;
+    font-size: 14px;
+    border: none;
+    border-bottom: 1px solid rgb(229, 229, 229);
+    cursor: pointer;
+}
+#select-filter > button:first-child{
+    background-color: #333;
+    color: white;
+}
+#select-filter > button:hover{
+    text-decoration: underline;
+}
+#show-details{
+    margin-top: 30px;
+    width: 65%;
+}
+.greater-rewards{
+    width: 100%;
+    background-color: #333;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+.greater-rewards > a{
+    color: white;
+    font-size: 14px;
+}
+
+#recent-orders-table{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 30px;
+    border-collapse: collapse;
+}
+#recent-orders-table > thead{
+    border-bottom: 1px solid black;
+    border-spacing: 10px;
+}
+#recent-orders-table > tbody::before{
+    line-height: 10px;
+    content: "\200C";
+    display: block;
+}
+
+
+
+
+
+@media only screen and (max-width: 800px){
+    .filter-and-display{
+        flex-direction: column;
+    }
+    .filter-side{
+        width: 90%;
+        margin-left: 30px;
+    }
+    #show-details{
+        width: 90%;
+        margin-left: 20px;
+    }
+    .image-with-text > button{
+        width: 20%;
+    }
+}
