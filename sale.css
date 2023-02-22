@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+body{
+    font-family: 'open-sans', sans-serif;
+}
+#a>h1{
+    font-weight: bold;
+}
+#b{
+    width: 100%;
+}
+#b>img{
+    width: 100%;
+}
+#b h1,p{
+    position: relative;
+    bottom: 200px;
+    left: 550px;
+}
+#b h1,p{
+    color: white;
+    font: 25px "gert bold",sans-serif;
+    font-weight: bold;
+}
+#select{
+    position: relative;
+    bottom: 90px;
+}
+#selected{
+    font-size: 20px;
+    border: none;
+}
+#button{
+    width: 15%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+#button button{
+    border: 1px solid black;
+    background-color: white;
+    color:black;
+    padding: 7px 23px 7px 23px;
+}
+#button button:hover{
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,250 @@
+{
+ "mens":[
+  {
+    "id":1,
+    "image1":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/2008001_257_f?$x1_grid$&v=1676388993",
+    "image2":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/2008001_257_b?$x1_grid$&v=1676388993",
+    "name":"Men's Powder Canyon™ Interchange Jacket",
+    "price":111.98
+  },
+  {
+    "id":2,
+    "image1":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1827681_010_f?$x1_grid$&v=1676388993",
+    "name":"Men's Tumalo Mountain™ Gloves",
+    "price":38
+  },
+  {
+    "id":3,
+    "image1":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1872853_464_f?$x1_grid$&v=1676388993",
+    "image2":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1872853_464_f?$x1_grid$&v=1676388993",
+    "name":"Men's Cascade Peak IV Interchange Jacket, Color: Collegiate Navy, Bright Indigo",
+    "price":154
+  },
+  {
+    "id":4,
+    "image2":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/2008441_010_b?$x1_grid$&v=1676388993",
+    "image1":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/2008441_010_f?$x1_grid$&v=1676388993",
+    "name":"Men's Toyama Pass Down Parka, Color: Black",
+    "price":149
+  },
+  {
+    "id":5,
+    "image1":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1957491_346_f?$x1_grid$&v=1676388993",
+    "image2":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1957491_346_b?$x1_grid$&v=1676388993",
+    "name":"Men's Marquam Peak Fusion Omni-Heat Infinity Insulated Parka, Color: Metal, Shark",
+    "price":119
+  },
+  {
+    "id":6,
+    "image1":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/WM3220_021_f?$x1_grid$&v=1676388993",
+    "image2":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/WM3220_464_b?$x1_grid$&v=1676388993",
+    "name":"Men's Steens Mountain 2.0 Full Zip Fleece Jacket, Color: Collegiate Navy",
+    "price":32
+  },
+  {
+    "id":7,
+    "image1":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1792581_419_f_om?$x1_grid$&v=1676388993",
+    "image2":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1792581_419_b_om?$x1_grid$&v=1676388993",
+    "name":"Men's Flex ROC Pants, Color: India Ink",
+    "price":54
+  },
+  {
+    "id":8,
+    "image1":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1892241_027_f?$x1_grid$&v=1676388993",
+    "image2":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1892241_027_b?$x1_grid$&v=1676388993",
+    "name":"PFG Mesh Snap Back Ball Cap - Tennessee, Color: UT - Black",
+    "price":30
+  },
+  {
+    "id":9,
+    "image1":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1864241_370_f?$x1_grid$&v=1676388993",
+    "image2":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1864241_009_b?$x1_grid$&v=1676388993",
+    "name":"Men's Penns Creek II Parka, Color: Spruce",
+    "price":95
+  }  
+ ],
+ "sale":[
+  {
+    "id":1,
+    "image1":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1960612_397_f?$x1_grid$&v=1676388993",
+    "image2":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1960612_397_b?$x1_grid$&v=1676388993",
+    "name":"Men's Tunnel Falls Interchange Jacket, Color: Stone Green",
+    "price":134,
+    "size":"XXS",
+    "type":"jacket"
+  },
+  {
+    "id":2,
+    "image1":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1746011_014_f?$x1_grid$&v=1676388993",
+    "image2":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1746011_014_f2?$x1_grid$&v=1676388993",
+    "name":"Men’s Fairbanks Omni-Heat Boot, Color: Shark, Cave Water",
+    "price":77,
+    "size":"XS",
+    "type":"shoes"
+  },
+  {
+    "id":3,
+    "image1":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1957341_858_f?$x1_grid$&v=1676388993",
+    "image2":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1957341_858_b?$x1_grid$&v=1676388993",
+    "name":"Men's Labyrinth Loop Omni-Heat Infinity Insulated Hooded Jacket, Color: Warm Copper, Black",
+    "price":110,
+    "size":"S",
+    "type":"jacket"
+  },
+  {
+    "id":4,
+    "image1":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/2015681_234_f?$x1_grid$&v=1676388993",
+    "image2":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/2015681_234_f2?$x1_grid$&v=1676388993",
+    "name":"Men's Newton Ridge Plus Omni-Heat Boot, Color: Light Brown, Black",
+    "price":49,
+    "size":"M",
+    "type":"shoes"
+  },
+  {
+    "id":5,
+    "image1":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1866751_858_f?$x1_grid$&v=1676388993",
+    "image2":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1866751_858_b?$x1_grid$&v=1676388993",
+    "name":"Men's Whirlibird IV Interchange Jacket, Color: Warm Copper, Black",
+    "price":80,
+    "size":"M",
+    "type":"jacket"
+  },
+  {
+    "id":6,
+    "image1":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1800661_271_f?$x1_grid$&v=1676388993",
+    "image2":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1800661_271_b?$x1_grid$&v=1676388993",
+    "name":"Men's Bugaboo II Fleece Interchange Jacket, Color: Ancient Fossil",
+    "price":167,
+    "size":"L",
+    "type":"jacket"
+  },
+  {
+    "id":7,
+    "image1":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1864311_257_f?$x1_grid$&v=1676388993",
+    "image2":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1864311_257_b?$x1_grid$&v=1676388993",
+    "name":"Men's Bugaboo IV Insulated Ski Pants, Color: Delta",
+    "price":80,
+    "size":"XL",
+    "type":"pant"
+  },
+  {
+    "id":8,
+    "image1":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1286061_490_f?$x1_grid$&v=1676388993",
+    "image2":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1286061_490_b?$x1_grid$&v=1676388993",
+    "name":"Men’s PFG Tamiami II Long Sleeve Shirt, Color: Spring Blue",
+    "price":30,
+    "size":"L",
+    "type":"shirt"
+  },
+  {
+    "id":9,
+    "image1":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1939151_278_f?$x1_grid$&v=1676388993",
+    "image2":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1939151_278_f2?$x1_grid$&v=1676388993",
+    "name":"Men's Columbia Vent Aero Shoe, Color: Dark Stone, Black",
+    "price":45,
+    "size":"M",
+    "type":"shoes"
+  },
+  {
+    "id":10,
+    "image1":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/FM6094_474_f?$x1_grid$&v=1676388993",
+    "image2":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/FM6094_474_b?$x1_grid$&v=1676388993",
+    "name":"Men’s PFG Terminal Tackle Long Sleeve Shirt, Color: Carbon, Red Spark Logo",
+    "price":30,
+    "size":"XXS",
+    "type":"shirt"
+  },
+  {
+    "id":11,
+    "image1":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1910051_464_f?$x1_grid$&v=1676388993",
+    "image2":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1910051_464_b?$x1_grid$&v=1676388993",
+    "name":"Men's Powder Stash Ski Pants, Color: Collegiate Navy",
+    "price":130,
+    "size":"XS",
+    "type":"pant"
+  },
+  {
+    "id":2,
+    "image1":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1746011_014_f?$x1_grid$&v=1676388993",
+    "image2":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1746011_014_f2?$x1_grid$&v=1676388993",
+    "name":"Men’s Fairbanks Omni-Heat Boot, Color: Shark, Cave Water",
+    "price":77,
+    "size":"XS",
+    "type":"shoes"
+  },
+  {
+    "id":2,
+    "image1":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1746011_014_f?$x1_grid$&v=1676388993",
+    "image2":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1746011_014_f2?$x1_grid$&v=1676388993",
+    "name":"Men’s Fairbanks Omni-Heat Boot, Color: Shark, Cave Water",
+    "price":77,
+    "size":"XS",
+    "type":"shoes"
+  },
+  {
+    "id":2,
+    "image1":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1746011_014_f?$x1_grid$&v=1676388993",
+    "image2":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1746011_014_f2?$x1_grid$&v=1676388993",
+    "name":"Men’s Fairbanks Omni-Heat Boot, Color: Shark, Cave Water",
+    "price":77,
+    "size":"XS",
+    "type":"shoes"
+  },
+  {
+    "id":2,
+    "image1":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1746011_014_f?$x1_grid$&v=1676388993",
+    "image2":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1746011_014_f2?$x1_grid$&v=1676388993",
+    "name":"Men’s Fairbanks Omni-Heat Boot, Color: Shark, Cave Water",
+    "price":77,
+    "size":"XS",
+    "type":"shoes"
+  },
+  {
+    "id":2,
+    "image1":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1746011_014_f?$x1_grid$&v=1676388993",
+    "image2":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1746011_014_f2?$x1_grid$&v=1676388993",
+    "name":"Men’s Fairbanks Omni-Heat Boot, Color: Shark, Cave Water",
+    "price":77,
+    "size":"XS",
+    "type":"shoes"
+  },
+  {
+    "id":2,
+    "image1":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1746011_014_f?$x1_grid$&v=1676388993",
+    "image2":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1746011_014_f2?$x1_grid$&v=1676388993",
+    "name":"Men’s Fairbanks Omni-Heat Boot, Color: Shark, Cave Water",
+    "price":77,
+    "size":"XS",
+    "type":"shoes"
+  },
+  {
+    "id":2,
+    "image1":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1746011_014_f?$x1_grid$&v=1676388993",
+    "image2":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1746011_014_f2?$x1_grid$&v=1676388993",
+    "name":"Men’s Fairbanks Omni-Heat Boot, Color: Shark, Cave Water",
+    "price":77,
+    "size":"XS",
+    "type":"shoes"
+  },
+  {
+    "id":2,
+    "image1":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1746011_014_f?$x1_grid$&v=1676388993",
+    "image2":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1746011_014_f2?$x1_grid$&v=1676388993",
+    "name":"Men’s Fairbanks Omni-Heat Boot, Color: Shark, Cave Water",
+    "price":77,
+    "size":"XS",
+    "type":"shoes"
+  },
+  {
+    "id":2,
+    "image1":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1746011_014_f?$x1_grid$&v=1676388993",
+    "image2":"https://columbia.scene7.com/is/image/ColumbiaSportswear2/1746011_014_f2?$x1_grid$&v=1676388993",
+    "name":"Men’s Fairbanks Omni-Heat Boot, Color: Shark, Cave Water",
+    "price":77,
+    "size":"XS",
+    "type":"shoes"
+  }
+ ]
+
+
+}
