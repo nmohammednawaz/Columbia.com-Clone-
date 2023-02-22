@@ -1,0 +1,281 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+#container{
+    
+    width:100%;
+    height:2000px;;
+}
+#home{
+    width:4%;
+    height:20px;
+    margin-left: 20px;
+    margin-top:30px;
+    
+    font-family: open sans,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;;
+}
+/* form & order css */
+#main{
+    width:90%;
+    height:1650px;
+    
+    display: flex;
+    margin: auto;
+    margin-top:50px;
+    justify-content: space-around;
+}
+#main>div{
+   border:1px solid grey;
+}
+#user{
+    width:50%;
+}
+#order{
+    width:40%;
+    height:900px;
+}
+#heading{
+    width:100%;
+
+    height:75px;
+    display:flex;
+    justify-content: center;
+}
+#LogIn{
+    width:45%;
+    height:100%;
+    
+}
+#create{
+    width:50%;
+    height:100%;
+    
+}
+h3{
+    font-family: open sans,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 400; 
+    text-align: center;
+    margin-top: 40px;;
+    color:#0D47A1;
+}
+#account{
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+#line1{
+    width:100%;
+    height:2px;
+    margin-top:9px;
+    background-color:#0D47A1;
+    display:none;
+
+}
+#line2{
+    width:100%;
+    height:2px;
+    margin-top:9px;
+    background-color:#0D47A1;
+    
+
+}
+#line{
+    width:100%;
+    height:1px;
+    background-color:grey;
+}
+/* form */
+#form{
+
+    width:100%;
+    height:80%;
+}
+h2{
+    font-family: gert bold,sans-serif;
+    
+}
+p{
+    margin-top: 5px;
+}
+#title{
+    width:95%;
+    margin:auto;
+    height:30px;
+    margin-top:30px;
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    width:95%;
+    height:60px;
+    display:block;
+    margin: auto;
+    margin-top: 40px;
+    font-size: large;
+    border:1.2px solid black;
+    
+}
+label{
+    margin-left:15px;
+    font-size: small;
+    color:grey;
+}
+#gender{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: larger;
+    font-weight:200;
+}
+#radio{
+    width:100%;
+    height:50px;
+    
+    display: flex;
+    
+    
+}
+.round{
+    width:20px;
+    height:20px;
+    margin-top:20px;
+    margin-left:20px;
+    margin-right:35px;
+    
+}
+.type{
+    margin-top: 23px;
+    font-size: smaller;
+    margin-left:-30px;
+}
+#date{
+    width:95%;
+    height:80px;
+    margin: auto;
+    margin-top:30px;
+    border:1px solid blue;
+    display: flex;
+    justify-content: space-between;
+}
+#date>div{
+    border:1px solid green;
+    width:45%;
+    
+}
+select{
+    width:100%;
+    height:65%;
+    margin-top:5px;
+}
+#checkbox{
+    width:20px;
+    height:20px;
+    margin-top:50px;
+    margin-left: 10px;
+    margin-right:0px;;
+}
+#box{
+    display: flex;
+}
+#check{
+    margin-top:50px;
+    margin-left:5px;
+}
+#banner{
+    
+    margin-top: 30px;
+    width:100%;
+    height:180px;
+    background-color: black;
+}
+#head1{
+    color:white;
+    font-size: 55px;
+    font-weight: 400;
+}
+#head2{
+    color:white;
+    font-size: 55px;
+}
+#text{
+    width:100%;
+    height:40%;
+
+    display: flex;
+    justify-content: space-between;
+}
+#checkbox1{
+    width:20px;
+    height:20px;
+    margin-top:20px;
+    margin-left: 10px;
+    margin-right:0px;;
+}
+#check1{
+    margin-top:22px;
+    margin-left:5px;
+    color:white;
+}
+#text2{
+    display: flex;
+}
+#submit{
+    width:80%;
+    height:40px;
+    border:1.2px solid grey;
+}
+#bottom{
+    width:80%;
+    height:40px;
+    margin:auto;
+    margin-top: 10px;;
+}
+
+/* order form */
+#heading1{
+  width:100%;
+  height:75px;
+  display: flex;
+  
+}
+#checkOrder{
+    margin-top: 20px;
+    margin-left: 20px;;
+}
+#orderP{
+    margin-top:35px;
+    margin-left:140px;
+    font-size: small;
+
+}
+#textBox{
+    width:90%;
+    margin:auto;
+    margin-top: 10px;
+}
+#submit1{
+    width:95%;
+    height:40px;
+    margin: auto;
+    margin-top: 30px;
+    font-size: smaller;
+    border:1.2px solid black;
+}
+#help>h3{
+    color:black;
+    margin-left: -280px;
+    font-weight: 500;
+}
+#contact>h3{
+    color:black;
+    margin-left: -250px;
+    font-weight: 500;
+}
+#contact>p{
+    margin-left: 15px;
+}
+#phone{
+    margin-left:15px;
+    margin-top:20px;
+}
