@@ -1,0 +1,183 @@
+a{
+    text-decoration: none;
+}
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
+a>h4{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+#a{
+    padding: 27px 16px 32px;
+    background-color: #9C183D;
+    height: 120px;
+}
+#a>h1,p,a>p{
+    color: white;
+    text-align: center;
+}
+#b>a>img{
+   width: 100%;
+}
+#b>a>h1{
+    color: white;
+    font-size: 50px;
+    position: relative;
+    bottom: 400px;
+    left: 40px;
+}
+#b>a>h3{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    bottom: 410px;
+    left: 40px;
+}
+#b>a>button{
+    padding: 7px 25px 7px 25px;
+    font-size: 15px;
+    position: relative;
+    bottom: 410px;
+    left: 40px;
+}
+#c{
+    position: relative;
+    bottom: 120px;
+}
+#c>h2{
+    color: black;
+    font-size: 22px;
+}
+#c>div{
+    display: flex;
+    justify-content: space-evenly;
+}
+#c>div>a>h4{
+   position: relative;
+   left: 100px;
+}
+#d>button{
+    padding: 5px 15px 5px 15px;
+    color: white;
+    background-color: black;
+    position: relative;
+    left: 540px;
+}
+#d{
+    padding-bottom: 40px;
+}
+#d>img{
+    width: 20%;
+    position: relative;
+    left: 540px;
+}
+#d>p{
+    color: black;
+    position: relative;
+    left: 17px;
+}
+#d>h1{
+    position: relative;
+    left: 430px;
+    font-size: 32px;
+    font-weight: bold
+}
+.swiper {
+    width: 1200px;
+    height: 300px;
+}
+#e{
+    margin-top: 40px;
+    width: 90%;
+    margin: auto;
+    border-radius: 20px;
+}
+#e img{
+    width: 100%;
+    height: auto;
+}
+section p,h2{
+    color: black;
+    text-align: left;
+}
+#f{
+    width: 95%;
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+}
+#f img{
+    width: 100%;
+}
+#f p,h2{
+    color:white;
+    text-align: left;
+    position: relative;
+    bottom: 150px;
+    left: 30px;
+}
+#f>div:nth-child(2)>p,h2{
+    color: black;
+}
+section>h2{
+    position: relative;
+    top: 10px;
+}
+.swiperr{
+    width: 40%;
+    margin: auto;
+}
+#g img{
+    width: 100%;
+}
+#g{
+    width: 50%;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+#g>a>h1{
+  color: black;
+  text-align: center;    
+}
+#g>a>button{
+    color: white;
+    background-color: black;
+    padding: 7px 29px 7px 29px;
+    display: block;
+    margin: auto;
+}
+.swiper-slide{
+    position: relative;
+}
+.swiper-slide>.hide{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.swiper-slide:hover>.hide{
+    display: block;
+}
+.swiper-slide:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.swipers {
+    width: 1200px;
+    height: 300px;
+}
+#h button{
+    display: block;
+    margin: auto;
+    color: white;
+    background-color: black;
+    padding: 7px 17px 7px 17px;
+}
+#c>h2{
+    position: relative;
+    top: 10px;
+}
