@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+ }
+ .navbar{
+   width: 100%;
+   height: 50px;
+   /* border: 2px solid red; */
+   display: flex;
+   justify-content: space-between;
+
+ }
+ .left{
+   margin-left: 30px;
+   margin-top: 10px;
+   font-family: open sans,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+   font-size: 15px;
+   
+}
+.right{
+   display: flex;
+   /* border: 2px solid green; */
+   width: 200px;
+   justify-content: space-around;
+   align-items: center;
+   margin-right: 35px;
+   font-size: 20px;
+   
+}
+.navbar a{
+   color: black;
+   text-decoration: none;
+}
+.right>div{
+   /* border: 2px solid red; */
+   width: 25%;
+   height: 100%;
+   padding-top: 12px;
+   padding-left: 12px;
+   
+}
+.customerCare{
+   position: relative;
+}
+.hideCustomer{
+   /* border: 2px solid red; */
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 101%;
+   background-color: black;
+   display: none;
+  
+
+}
+
+.sideCust{
+   background-color: black;
+   position: absolute;
+   top: 10px;
+   left: -95px;
+   color: white;
+   font-size: small ;
+   padding: 2px 5px 3px 5px;
+   display: none;
+}
+.customerCare:hover .sideCust{
+   display: flex;
+  
+   
+}
+.sideCust::before{
+   position: absolute;
+   content: "";
+   /* background-color: red; */
+   margin: 30px;
+   top: -27px;
+   right: -45px;
+   border-top: 8px solid transparent;
+   border-left: 8px solid black;
+   border-bottom: 8px solid transparent;
+   border-right: 8px solid transparent;
+}
+.customerCare:hover .hideCustomer{
+   display: flex;
+   color: white;
+   padding-top: 12px;
+   padding-left: 12px;
+}
+.findStore{
+   position: relative;
+   /* border: 2px solid  red; */
+}
+.hideFindStore{
+   /* border: 2px solid red; */
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 101%;
+   background-color: black;
+   display: none;
+
+
+
+}
+.sideFind{
+   background-color: black;
+   
+   position: absolute;
+   top: 10px;
+   left: -84px;
+   color: white;
+   font-size: small ;
+  padding: 2px 5px 5px 5px;
+
+   display: none;
+ 
+}
+.findStore:hover .sideFind{
+   display: flex;
+   
+}
+.sideFind::before{
+   position: absolute;
+   content: "";
+   /* background-color: red; */
+   margin: 30px;
+
+   top: -27px;
+   right: -45px;
+   border-top: 8px solid transparent;
+   border-left: 8px solid black;
+   border-bottom: 8px solid transparent;
+   border-right: 8px solid transparent;
+}
+.findStore:hover .hideFindStore{
+   display: flex;
+   color: white;
+   padding-top: 12px;
+   padding-left: 12px;
+}
+.account{
+   position: relative;
+
+}
+.hideAccount{
+   /* border: 2px solid red; */
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: black;
+   display: none;
+
+}
+.sideAcc{
+   background-color: black;
+   position: absolute;
+   top: 10px;
+   left: -83px;
+   color: white;
+   font-size: small ;
+  padding: 2px 5px 5px 5px;
+
+   display: none;
+ 
+}
+.account:hover .sideAcc{
+   display: flex;
+   
+}
+.sideAcc::before{
+   position: absolute;
+   content: "";
+   /* background-color: red; */
+   margin: 30px;
+
+   top: -27px;
+   right: -45px;
+   border-top: 8px solid transparent;
+   border-left: 8px solid black;
+   border-bottom: 8px solid transparent;
+   border-right: 8px solid transparent;
+}
+.account:hover .hideAccount{
+   display: flex;
+   color: white;
+   padding-top: 12px;
+   padding-left: 12px;
+}
+.cart{
+   position: relative;
+   /* border: 2px solid  red; */
+
+}
+.hideCart{
+   /* border: 2px solid red; */
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: black;
+   display: none;
+
+}
+.sideCart{
+   background-color: black;
+   position: absolute;
+   top: 10px;
+   left: -40px;
+   color: white;
+   font-size: small ;
+  padding: 2px 5px 5px 5px;
+
+   display: none;
+ 
+}
+.cart:hover .sideCart{
+   display: flex;
+   
+}
+.sideCart::before{
+   position: absolute;
+   content: "";
+   /* background-color: red; */
+   margin: 30px;
+
+   top: -27px;
+   right: -45px;
+   border-top: 8px solid transparent;
+   border-left: 8px solid black;
+   border-bottom: 8px solid transparent;
+   border-right: 8px solid transparent;
+}
+.cart:hover .hideCart{
+   display: flex;
+   color: white;
+   padding-top: 12px;
+   padding-left: 12px;
+}
+
+
+ #lower{
+    background-color: #333030;
+    width: 100%;
+    height: 100px;
+    display: flex;
+ }
+ .lowerLeft{
+   display: flex;
+   /* border: 2px solid red; */
+   background-color: #007ab8;
+   align-items: center;
+   width: 200px;
+  margin-right: 30px;
+
+ }
+ .lowerLeft img{
+  color: white;
+  width: 60px;
+  margin-left: 10px ;
+ }
+ .lowerLeft a{
+   color: white;
+   margin-left: -15px;
+    font-size: 30px;
+    text-decoration: none;
+ }
+ .lowerMiddle{
+   display: flex;
+  /* border: 2px solid red; */
+  width: 500px;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 300px;
+ }
+ .lowerMiddle a{
+  /* padding: 0px 20px 0px 20px; */
+   color: white;
+   text-decoration: none;
+   font-family: open sans,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+ }
+ .lowerRight{
+   /* border: 2px solid red; */
+    display: flex;
+    /* justify-content: center; */
+    height: 40px;
+    margin-top: 33px;
+    margin-right: 20px;
+   border: 2px solid red;
+   
+ }
+ .lowerRight input{
+   font-size: 20px;
+   padding: 5px;
+    border: 1px solid white;
+   background-color: #333030;
+  color: white;
+
+  
+ }
+ .lowerRight i{
+   margin-top: 7px;
+   color: white;
+  
+ }
+ .men{
+   border: 2px solid red;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   position: relative;
+ }
+ .menList{
+   border: 2px solid green;
+   position: absolute;
+   bottom: 0px;
+   top: 100%;
+   left: -1px;
+   width: 600px;
+   height: 400px;
+ }
+ .menlist1{
+   border: 2px solid;
+   width: 300px;
+   height: 100%;
+   position: relative;
+   display: none;
+ }
+.menListOFlist{
+   border: 2px solid red;
+  position: absolute;
+  left: 298px;
+  top: -2px;
+   width: 300px;
+   height: 398px;
+   
+}
+.menListOFlist img{
+   width: 100%;
+  overflow: scroll;
+}
+
