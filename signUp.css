@@ -154,12 +154,12 @@ label{
     height:80px;
     margin: auto;
     margin-top:30px;
-    border:1px solid blue;
+
     display: flex;
     justify-content: space-between;
 }
 #date>div{
-    border:1px solid green;
+    
     width:45%;
     
 }
