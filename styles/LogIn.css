@@ -1,0 +1,199 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+#container{
+    
+    width:100%;
+    height:2000px;;
+}
+#home{
+    width:4%;
+    height:20px;
+    margin-left: 20px;
+    margin-top:30px;
+    cursor: pointer;
+    font-family: open sans,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;;
+}
+/* form & order css */
+#main{
+    width:90%;
+    height:900px;
+    
+    display: flex;
+    margin: auto;
+    margin-top:50px;
+    justify-content: space-around;
+}
+#main>div{
+   border:1px solid grey;
+}
+#user{
+    width:50%;
+}
+#order{
+    width:40%;
+    height:900px;
+}
+#heading{
+    width:100%;
+
+    height:75px;
+    display:flex;
+    justify-content: center;
+}
+#LogIn{
+    width:45%;
+    height:100%;
+    
+}
+#create{
+    width:50%;
+    height:100%;
+    
+}
+h3{
+    font-family: open sans,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 400; 
+    text-align: center;
+    margin-top: 40px;;
+    color:#0D47A1;
+}
+#account{
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+#line1{
+    width:100%;
+    height:2px;
+    margin-top:9px;
+    background-color:#0D47A1;
+    
+
+}
+#line2{
+    width:100%;
+    height:2px;
+    margin-top:9px;
+    background-color:#0D47A1;
+    display:none;
+
+}
+#line{
+    width:100%;
+    height:1px;
+    background-color:grey;
+}
+/* form */
+#form{
+
+    width:100%;
+    height:80%;
+}
+h2{
+    font-family: gert bold,sans-serif;
+    
+}
+p{
+    margin-top:5px;
+}
+#title p{
+    margin-top: 20px;
+    text-align: end;
+    margin-right:15px;
+    font-size: small;
+   
+}
+
+input{
+    width:95%;
+    height:60px;
+    display:block;
+    margin: auto;
+    margin-top: 10px;
+    font-size: large;
+    border:1.2px solid black;
+    
+}
+#email{
+    margin-bottom: 35px;;
+}
+label{
+    margin-left:15px;
+    font-size: small;
+    color:grey;
+    
+}
+#submit{
+    width:95%;
+    height:30px;
+    margin-top: 30px;
+    border:1.2px solid grey;
+}
+#checkbox{
+    width:20px;
+    height:20px;
+    margin-top:20px;
+    margin-left: 10px;
+    margin-right:0px;;
+}
+#remember{
+    margin-left:35px;
+    margin-top:-19px;
+    margin-bottom:20px;
+}
+#forgot{
+    color:black;
+    margin-left:10px;
+    
+}
+
+/* order form */
+#heading1{
+  width:100%;
+  height:75px;
+  display: flex;
+  
+}
+#checkOrder{
+    margin-top: 20px;
+    margin-left: 20px;;
+}
+#orderP{
+    margin-top:35px;
+    margin-left:140px;
+    font-size: small;
+
+}
+#textBox{
+    width:90%;
+    margin:auto;
+    margin-top: 10px;
+}
+#submit1{
+    width:95%;
+    height:40px;
+    margin: auto;
+    margin-top: 30px;
+    font-size: smaller;
+    border:1.2px solid black;
+}
+#help>h3{
+    color:black;
+    margin-left: -280px;
+    font-weight: 500;
+}
+#contact>h3{
+    color:black;
+    margin-left: -250px;
+    font-weight: 500;
+}
+#contact>p{
+    margin-left: 15px;
+}
+#phone{
+    margin-left:15px;
+    margin-top:20px;
+}
