@@ -244,7 +244,149 @@
     "size":"XS",
     "type":"shoes"
   }
- ]
+ ],
 
 
+
+
+
+
+  
+
+  "data":[
+   {
+    "id": 1,
+    "brand": "Printed Fleece",
+    "img": "https://cdn.staticans.com/image/tr:e-sharpen-01,h-600,w-480,cm-pad_resize/data/Columbia/10-feb-2023/WG6778-679_2.jpg",
+    "price": 5000 ,
+    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",
+    "category": "XS"
+   },
+   {
+    "id":2 ,
+    "brand": "Interchange",
+    "img": "https://cdn.staticans.com/image/tr:e-sharpen-01,h-600,w-480,cm-pad_resize/data/Columbia/10-feb-2023/WG6778-484_2.jpg",
+    "price": 4000,
+    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",
+    "category": "XXS"
+   },
+   {
+    "id": 3,
+    "brand": "Full Zip",
+    "img": "https://cdn.staticans.com/image/tr:e-sharpen-01,h-600,w-480,cm-pad_resize/data/Columbia/10-feb-2023/SB6647-613_2.jpg",
+    "price":3000 ,
+    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",
+    "category": "S"
+   },
+   {
+    "id": 4,
+    "brand": "Printed Fleece",
+    "img": "https://cdn.staticans.com/image/tr:e-sharpen-01,h-600,w-480,cm-pad_resize/data/Columbia/10-feb-2023/SB6647-039_2.jpg",
+    "price": 5000,
+    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",
+    "category": ""
+   },
+   {
+    "id": 5,
+    "brand": "Interchange",
+    "img": "https://cdn.staticans.com/image/tr:e-sharpen-01,h-600,w-480,cm-pad_resize/data/Columbia/10-feb-2023/AY0031-010_2.jpg",
+    "price":2000 ,
+    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",
+    "category": "L"
+    
+   },
+   {
+    "id": 6,
+    "brand": "Printed Fleece",
+    "img": "https://cdn.staticans.com/image/tr:e-sharpen-01,h-600,w-480,cm-pad_resize/data/Columbia/14-Oct-2022/WG1120_567_2.jpg",
+    "price": 1000,
+    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",
+    "category": "XS"
+   },
+   {
+    "id": 7,
+    "brand": "Full Zip",
+    "img": "https://cdn.staticans.com/image/tr:e-sharpen-01,h-600,w-480,cm-pad_resize/data/Columbia/14-Oct-2022/WG1120_468_2.jpg",
+    "price": 4000,
+    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",
+    "category": ""
+   },
+   {
+    "id": 8,
+    "brand": "Interchange",
+    "img": "https://cdn.staticans.com/image/tr:e-sharpen-01,h-600,w-480,cm-pad_resize/data/Columbia/14-Oct-2022/WG0009_432_2.jpg",
+    "price": 1000,
+    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",
+    "category": "XXS"
+   },
+   {
+    "id": 9,
+    "brand": "Printed Fleece",
+    "img": "https://cdn.staticans.com/image/tr:e-sharpen-01,h-600,w-480,cm-pad_resize/data/Columbia/14-Oct-2022/WB1037_009_2.JPEG",
+    "price": 3000,
+    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",
+    "category": "S"
+   },
+   {
+    "id":10 ,
+    "brand": "Full Zip",
+    "img": "https://cdn.staticans.com/image/tr:e-sharpen-01,h-600,w-480,cm-pad_resize/data/Columbia/14-Oct-2022/EB0013_346_2.JPEG",
+    "price": 2000,
+    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",
+    "category": "L"
+   },
+   {
+    "id": 11,
+    "brand": "Hooded",
+    "img": "https://cdn.staticans.com/image/tr:e-sharpen-01,h-600,w-480,cm-pad_resize/data/Columbia/14-Oct-2022/AY0031_432_2.jpg",
+    "price": 1000,
+    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",
+    "category": "XS"
+   },
+   {
+    "id": 12,
+    "brand": "Hooded",
+    "img": "https://cdn.staticans.com/image/tr:e-sharpen-01,h-600,w-480,cm-pad_resize/data/Columbia/14-Oct-2022/AG6987_468_2.JPEG",
+    "price":5000 ,
+    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",
+    "category": "XXS"
+   },
+   {
+    "id": 13,
+    "brand": "Interchange",
+    "img": "https://cdn.staticans.com/image/tr:e-sharpen-01,h-600,w-480,cm-pad_resize/data/Columbia/14-Oct-2022/SN0214_010_2.JPEG",
+    "price": 2000,
+    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",
+    "category": "S"
+   },
+   {
+    "id":14 ,
+    "brand": "Printed Fleece",
+    "img": "https://cdn.staticans.com/image/tr:e-sharpen-01,h-600,w-480,cm-pad_resize/data/Columbia/14-Oct-2022/SN0214_614_2.JPEG",
+    "price": 1500,
+    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",
+    "category": "L"
+   },
+   {
+    "id": 15,
+    "brand": "Full Zip",
+    "img": "https://cdn.staticans.com/image/tr:e-sharpen-01,h-600,w-480,cm-pad_resize/data/Columbia/14-Oct-2022/SG5189_616_2.JPEG",
+    "price": 2500,
+    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",
+    "category": "XS"
+   },
+   {
+    "id": 16,
+    "brand": "Printed Fleece",
+    "img": "https://cdn.staticans.com/image/tr:e-sharpen-01,h-600,w-480,cm-pad_resize/data/Columbia/14-Oct-2022/SN0214_616_2.JPEG",
+    "price": 4000,
+    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",
+    "category": "XXS"
+   }
+  ]
 }
+
+
+  
+      
+      
