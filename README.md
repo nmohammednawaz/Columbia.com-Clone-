@@ -6,7 +6,7 @@ Fabrica
 Description:-
 Fabrica is a clone of webiste called "Columbia.com" which is an apparel and footwear company. It designs, develops, markets, and distributes apparel, footwear, accessories and equipment for men, kids, women and youth.
 
-It is a collaborative project with a team of 5 and under the guidance of our IA Manager.
+It is a collaborative project with a team of 5 members, under the guidance of our IA Manager.
 
 IA Manager:- 
 Adarsha Khatua
