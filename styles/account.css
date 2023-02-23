@@ -46,7 +46,10 @@
 .filter-side > p > a{
     color: black;
 }
-#select-filter > button{
+#select-filter > a{
+    text-decoration: none;
+}
+#select-filter > a > button{
     display: block;
     width: 100%;
     height: 56px;
@@ -57,13 +60,14 @@
     font-size: 14px;
     border: none;
     border-bottom: 1px solid rgb(229, 229, 229);
+    border-top: 1px solid rgb(229, 229, 229);
     cursor: pointer;
 }
-#select-filter > button:first-child{
+#select-filter > a:first-child > button{
     background-color: #333;
     color: white;
 }
-#select-filter > button:hover{
+#select-filter > a > button:hover{
     text-decoration: underline;
 }
 #show-details{
@@ -81,6 +85,9 @@
 .greater-rewards > a{
     color: white;
     font-size: 14px;
+}
+.greater-rewards > h1 > img{
+    width: 30px;
 }
 
 #recent-orders-table{
