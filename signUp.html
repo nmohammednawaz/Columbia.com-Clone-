@@ -15,7 +15,7 @@
             <!-- heading -->
             <div id="heading">
                 <div id="LogIn">
-                    <a href="#"><h3>Log in</h3></a>
+                    <a href="./LogIn.html"><h3>Log in</h3></a>
                     <div id="line1"></div>
                 </div>
                 <div id="create">
@@ -33,37 +33,37 @@
                     <p>* Required</p>
                 </div>
 
-                <input type="email" placeholder="Email *">
-                <input type="password" placeholder="Password *">
+                <input type="email" autocomplete="username" placeholder="Email *" id="email">
+                <input type="password" autocomplete="new-password" placeholder="Password *" id="password">
                 <label>Minimum of 8 characters 1 uppercase letter 1 lowercase letter 1 number</label> 
-                <input type="pasword" placeholder="Confirm Password *">
+                <input type="password" autocomplete="current-password" placeholder="Confirm Password *" id="verifyPass">
 
                 <div id="title">
                     <h2>My Profile</h2>
                     
                 </div>
 
-                <input type="text" placeholder="First Name *">
-                <input type="text" placeholder="Last Name *">
-                <input type="number" placeholder="Zip Code *">
-                <input type="number" placeholder="Phone *">
+                <input type="text" placeholder="First Name *" id="firstName">
+                <input type="text" placeholder="Last Name *" id="lastName">
+                <input type="number" placeholder="Zip Code *" id="ZipCode">
+                <input type="number" placeholder="Phone *" id="Phone">
                 <label>Example: (555) 555-5555</label>
 
                 <p id="gender">Gender</p>
                 <div id="radio">
-                <input type="radio" class="round">
+                <input type="radio" class="round" placeholder="Male">
                 <p class="type">Male</p>
-                <input type="radio" class="round">
+                <input type="radio" class="round" placeholder="Female">
                 <p class="type">Female</p>
-                <input type="radio" class="round">
+                <input type="radio" class="round" placeholder="Prefer not to answer">
                 <p class="type">Prefer not to answer</p>
                 </div>
 
                 <div id="date">
                     <div id="Month">
                       <p>Birth Month</p>
-                      <select>
-                        <option value="Month">Month</option>
+                      <select id="birthMonth" name="month">
+                        <option value="">Month</option>
                         <option value="01 - January">01 - January</option>
                         <option value="02 - February">02 - February</option>
                         <option value="03 - March">03 - March</option>
@@ -80,8 +80,8 @@
                     </div>
                     <div id="day">
                         <p>Birth Day</p>
-                        <select name="" id="">
-                            <option value="Day">Day</option>
+                        <select id="birthDay" name="day">
+                            <option value="">Day</option>
                             <option value="01">01</option>
                             <option value="02">02</option>
                             <option value="03">03</option>
@@ -120,7 +120,7 @@
                 </div>
 
                 <div id="box">
-                    <input type="checkbox" name="" id="checkbox">
+                    <input type="checkbox" name="" id="checkbox" placeholder="checkbox">
                 <p id="check">Please send me emails about new products, special offers and more.</p>
                 </div>
 
@@ -130,12 +130,14 @@
                         <h1 id="head2">REWARDS</h1>
                     </div>
                     <div id="text2">
-                        <input type="checkbox" name="" id="checkbox1">
+                        <input type="checkbox" name="" id="checkbox1" placeholder="checkbox1">
                         <p id="check1">I want to join Greater Rewards for free shipping and rewards (it's free to join). By checking this box, I have read and understood the Notice of Financial Incentives, and I agree to the Terms and Conditions.</p>
                     </div>
                 </div>
 
-                <input type="text" placeholder="CREATE ACCOUNT" id="submit">
+                
+                
+                <input type="submit" value="CREATE ACCOUNT" id="submit">
                 <div id="bottom">By creating an account, you agree to our Terms of Use and Privacy Policy.</div>
                 
             </form>
