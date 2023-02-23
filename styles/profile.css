@@ -1,0 +1,98 @@
+.profile_main{
+    width: 95%;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.profile_main > h1{
+    font-weight: bold;
+}
+.profile_main > img{
+    width: 100%;
+}
+.profile_main > p > span{
+    font-size: 14px;
+}
+.filter-and-display{
+    display: flex;
+    margin-bottom: 60px;
+}
+.filter-side{
+    width: 24%;
+    margin: 30px 50px 8px 50px;
+}
+.filter-side > p{
+    font-size: 14px;
+}
+.filter-side > p > a{
+    color: black;
+}
+#select-filter > a{
+    text-decoration: none;
+}
+#select-filter > a > button{
+    display: block;
+    width: 100%;
+    height: 56px;
+    text-align: left;
+    padding-left: 10%;
+    background-color: white;
+    font-weight: bolder;
+    font-size: 14px;
+    border: none;
+    border-bottom: 1px solid rgb(229, 229, 229);
+    border-top: 1px solid rgb(229, 229, 229);
+    cursor: pointer;
+}
+#select-filter > a:nth-child(2) > button{
+    background-color: #333;
+    color: white;
+}
+#select-filter > a > button:hover{
+    text-decoration: underline;
+}
+#show-profile{
+    margin-top: 30px;
+    width: 65%;
+    line-height: 10px;
+}
+.profile-hr{
+    width: 60%;
+    border-top: 1px solid rgb(229, 229, 229);
+    margin-left: 0px;
+    display: block;
+}
+#show-profile > p{
+    font-size: 14px;
+}
+#show-profile > p > span{
+    font-weight: bold;
+}
+#edit-my-account{
+    width: 35%;
+    height: 40px;
+    background-color: #333;
+    color: white;
+    display: block;
+    margin-left: 15%;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 800px){
+    .filter-and-display{
+        flex-direction: column;
+    }
+    .filter-side{
+        width: 90%;
+        margin-left: 30px;
+    }
+    #show-profile{
+        width: 90%;
+        margin-left: 20px;
+    }
+    #edit-my-account{
+        width: 80%;
+        margin: auto;
+    }
+}
