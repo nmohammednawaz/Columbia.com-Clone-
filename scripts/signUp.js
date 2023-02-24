@@ -35,6 +35,28 @@ function register(e){
                 greaterReward=true;
             }
 
+
+      //for mobile length 
+    
+    if (document.querySelector("#Phone").value.length !=10){
+        alert("Invalid Mobile Number!!");
+        document.querySelector("#Phone").value="";
+        return;
+    }
+ 
+     
+     //for password match
+     
+     
+     if(password.value != verifyPassword.value){
+         alert("Passwords do not match!!");
+         document.querySelector("#password").value="";
+         document.querySelector("#verifyPass").value="";
+         return;
+     }else{
+         alert("Welcome to fabrica!!!");   
+     }       
+
     
    UserForm.push({email,password,verifyPassword,firstName,lastName,ZipCode,phone,gender,BirthMonth,BithDay,sendEmail,greaterReward});
     
