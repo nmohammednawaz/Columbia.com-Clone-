@@ -37,6 +37,7 @@ function register(e){
 
     
    UserForm.push({email,password,verifyPassword,firstName,lastName,ZipCode,phone,gender,BirthMonth,BithDay,sendEmail,greaterReward});
+    
    
 
    localStorage.setItem('user',JSON.stringify(UserForm));
