@@ -337,376 +337,429 @@
  ],
  "Fleece":[
   {
+    "id":1,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/2016091_010_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/2016091_010_b?$x1_grid$&v=1676388993",
     "name": "Men's Outdoor Tracks™ Half Zip Fleece Pullover",
-    "price": "$34.92",
+    "price": 34.9,
     "size":"L"
   },
   {
+    "id":2,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1861681_858_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1861681_043_b?$x1_grid$&v=1676388993",
     "name": "Men's Steens Mountain™ Half Snap Fleece Pullover",
-    "price": "$25.98",
+    "price": 25.9,
     "size":"M"
   },
   {
+    "id":3,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/WM3220_021_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/WM3220_021_b?$x1_grid$&v=1676388993",
     "name": "Men's Steens Mountain™ 2.0 Full Zip Fleece Jacket",
-    "price": "$32.98",
+    "price": 32.9,
     "size":"S"
   },
   {
+    "id":3,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1639261_028_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1639261_028_b?$x1_grid$&v=1676388993",
     "name": "Men’s Steens Mountain™ Fleece Vest",
-    "price": "$29.91",
+    "price": 29.9,
     "size":"XL"
   },
   {
+    "id":4,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1954251_010_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1954251_370_f?$x1_grid$&v=1676388993",
     "name": "Men's Steens Mountain™ Novelty Half Snap Fleece Hoodie",
-    "price": "$29.98",
+    "price": 29.9,
     "size":"XS"
   },
   {
+    "id":5,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/AM6558_449_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/AM6558_858_b?$x1_grid$&v=1676388993",
     "name": "Men’s Klamath Range™ II Half Zip Fleece Pullover",
-    "price": "$23.98",
+    "price": 23.9,
     "size":"XXS"
   },
   {
+    "id":6,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1911181_010_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1911181_010_b?$x1_grid$&v=1676388993",
     "name": "Fast Trek™ II Fleece Gaiter",
-    "price": "$8.92",
+    "price": 8.92,
     "size":"L"
   },
   {
+    "id":7,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/WT3220_470_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/WT3220_470_b?$x1_grid$&v=1676388993",
     "name": "Men’s Steens Mountain™ 2.0 Full Zip Fleece Jacket - Tall",
-    "price": "$25.98",
+    "price": 25.9,
     "size":"M"
   },
   {
+    "id":8,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1955431_010_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/content/ColumbiaSportswear/GridPlaceholder-COL.gif",
     "name": "Men's Steens Mountain Full Zip Fleece Hoodie",
-    "price": "$55.91",
+    "price": 55.9,
     "size":"S"
   },
   {
+    "id":9,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1884931_465_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/content/ColumbiaSportswear/GridPlaceholder-COL.gif",
     "name": "Men's Columbia™ Logo Fleece Crew",
-    "price": "$22.98",
+    "price": 22.9,
     "size":"XL"
   },
   {
+    "id":10,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1862551_023_f?$x1_grid$&v=1676388993",
     "image2": "",
     "name": "Trail Shaker™ Omni-Heat™ Fleece Beanie",
-    "price": "$9.98",
+    "price": 9.98,
     "size":"XS"
   },
   {
+    "id":11,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1911211_010_f?$x1_grid$&v=1676388993",
     "image2": "",
     "name": "Fast Trek™ II Fleece Scarf",
-    "price": "$11.98",
+    "price": 11.9,
     "size":"XXS"
   },
   {
+    "id":12,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1911201_010_f?$x1_grid$&v=1676388993",
     "image2": "",
     "name": "Fast Trek™ II Fleece Headband",
-    "price": "$7.92",
+    "price": 7.92,
     "size":"L"
   },
   {
+    "id":13,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/2012271_271_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/content/ColumbiaSportswear/GridPlaceholder-COL.gif",
     "name": "Men's Ballistic Ridge™ Full Zip Fleece",
-    "price": "$51.98",
+    "price": 51.9,
     "size":"M"
   },
   {
+    "id":14,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/WS3220_271_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/content/ColumbiaSportswear/GridPlaceholder-COL.gif",
     "name": "Men’s Steens Mountain™ 2.0 Full Zip Fleece Jacket - Big",
-    "price": "$32.91",
+    "price": 32.9,
     "size":"S"
   },
   {
+    "id":15,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1911601_024_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/content/ColumbiaSportswear/GridPlaceholder-COL.gif",
     "name": "Men's CSC Logo™ Fleece Jogger II",
-    "price": "$27.98",
+    "price": 27.9,
     "size":"XL"
   },
   {
+    "id":16,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1954111_191_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/content/ColumbiaSportswear/GridPlaceholder-COL.gif",
     "name": "Men's Sweater Weather™ Fleece Half Zip Pullover",
-    "price": "$39.98",
+    "price": 39.9,
     "size":"XS"
   },
   {
+    "id":17,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/2013611_346_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/content/ColumbiaSportswear/GridPlaceholder-COL.gif",
     "name": "Men's Haven Hills™ Fleece Hoodie",
-    "price": "$21.98",
+    "price": 21.9,
     "size":"XXS"
   },
   {
+    "id":18,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/2013401_397_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/content/ColumbiaSportswear/GridPlaceholder-COL.gif",
     "name": "Men's Park View™ Crew Shirt",
-    "price": "$21.98",
+    "price": 21.9,
     "size":"L"
   },
   {
+    "id":19,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1352477_320_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/content/ColumbiaSportswear/GridPlaceholder-COL.gif",
     "name": "Men's Klamath Range™ II Half Zip Fleece Pullover - Tall",
-    "price": "$35.91",
+    "price": 35.9,
     "size":"M"
 
   },
   {
+    "id":20,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1907031_858_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/content/ColumbiaSportswear/GridPlaceholder-COL.gif",
     "name": "Men's Windward™ Rugged Shirt Jacket",
-    "price": "$43.98",
+    "price": 43.9,
     "size":"S"
   },
   {
+    "id":21,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1866561_012_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/content/ColumbiaSportswear/GridPlaceholder-COL.gif",
     "name": "Men's Winter Pass™ Printed Fleece Jacket",
-    "price": "$35.98",
+    "price": 35.9,
     "size":"XL"
   },
   {
+    "id":22,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/2013621_010_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/content/ColumbiaSportswear/GridPlaceholder-COL.gif",
     "name": "Men's Haven Hills™ Fleece Crew",
-    "price": "$17.98",
+    "price": 17.9,
     "size":"XS"
   },
   {
+    "id":23,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1956721_011_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/content/ColumbiaSportswear/GridPlaceholder-COL.gif",
     "name": "Men's Mountain View™ II Omni-Heat™ Joggers",
-    "price": "$37.98",
+    "price": 37.9,
     "size":"XXS"
   },
   {
+    "id":24,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1866621_016_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/content/ColumbiaSportswear/GridPlaceholder-COL.gif",
     "name": "Men's Flare Gun™ Fleece Over Shirt",
-    "price": "$27.98",
+    "price": 27.9,
     "size":"L"
   }
 ],
 "Tops":[
   {
+    "id":1,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/FM7253_499_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/FM7253_499_b?$x1_grid$&v=1676388993",
     "name": "Men’s PFG Tamiami™ II Long Sleeve Shirt",
-    "price": "$27.92",
+    "price": 27.92,
     "size":"XL"
   },
   {
+    "id":2,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1954251_010_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1954251_010_b?$x1_grid$&v=1676388993",
     "name": "Men's Steens Mountain™ Novelty Half Snap Fleece Hoodie",
-    "price": "$29.98",
+    "price": 29.98,
     "size":"L"
   },
   {
+    "id":3,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/FM6094_459_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/FM6094_471_b?$x1_grid$&v=1676388993",
     "name": "Men’s PFG Terminal Tackle™ Long Sleeve Shirt",
-    "price": "$19.98",
+    "price": 19.98,
     "size":"S"
   },
   {
+    "id":4,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/FM7266_010_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/FM7266_010_b?$x1_grid$&v=1676388993",
     "name": "Men’s PFG Tamiami™ II Short Sleeve Shirt",
-    "price": "$45.00",
+    "price": 45.00,
     "size":"M"
   },
   {
+    "id":5,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/FM6132_020_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/FM6132_451_f?$x1_grid$&v=1676388993",
     "name": "Men’s PFG Terminal Tackle™ Hoodie",
-    "price": "$19.98",
+    "price": 19.98,
     "size":"L"
   },
   {
+    "id":6,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/FM7048_010_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/FM7048_010_b?$x1_grid$&v=1676388993",
     "name": "Men’s PFG Bahama™ II Long Sleeve Shirt",
-    "price": "$27.98",
+    "price": 27.98,
     "size":"XS"
   },
   {
+    "id":7,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1907041_012_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1907041_012_b?$x1_grid$&v=1676388993",
     "name": "Men's Flare Gun™ Stretch Flannel Hoodie",
-    "price": "$27.98",
+    "price": 27.98,
     "size":"XL"
   },
   {
+    "id":8,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/FT7266_499_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/FT7266_499_b?$x1_grid$&v=1676388993",
     "name": "Men’s PFG Tamiami™ II Short Sleeve Shirt - Tall",
-    "price": "$45.00",
+    "price": 45.00,
     "size":"XXS"
   },
   {
+    "id":9,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1011771_443_f_om?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1011771_443_b_om?$x1_grid$&v=1676388993",
     "name": "Men’s PFG Bonehead™ Short Sleeve Shirt",
-    "price": "$23.92",
+    "price": 23.92,
     "size":"XS"
   },
   {
+    "id":10,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1990751_023_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1990751_023_b?$x1_grid$&v=1676388993",
     "name": "Men's Thistletown Hills™ Short Sleeve Shirt",
-    "price": "$19.99",
+    "price": 19.99,
     "size":"XXS"
   },
   {
+    "id":11,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/FM7047_696_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/FM7047_696_b?$x1_grid$&v=1676388993",
     "name": "Men’s PFG Bahama™ II Short Sleeve Shirt",
-    "price": "$48.00",
+    "price": 48.00,
     "size":"XL"
   },
   {
+    "id":12,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1287051_490_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1287051_490_b?$x1_grid$&v=1676388993",
     "name": "Men’s PFG Tamiami™ II Short Sleeve Shirt",
-    "price": "$22.98",
+    "price": 22.98,
     "size":"L"
   },
   {
+    "id":13,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1872661_024_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1872661_024_b?$x1_grid$&v=1676388993",
     "name": "Men's Terminal Tackle PFG Fish Flag™ Long Sleeve Shirt",
-    "price": "$22.92",
+    "price": 22.92,
     "size":"M"
   },
   {
+    "id":14,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1438941_506_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1438941_688_f?$x1_grid$&v=1676388993",
     "name": "Men’s PFG Super Tamiami™ Long Sleeve Shirt",
-    "price": "$34.98",
+    "price": 34.98,
     "size":"M"
   },
   {
+    "id":15,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1577051_010_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1577051_010_b?$x1_grid$&v=1676388993",
     "name": "Men's PFG Slack Tide™ Camp Shirt",
-    "price": "$45.00",
+    "price": 45.00,
     "size":"XXS"
   },
   {
+    "id":16,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1653761_505_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1653761_505_b?$x1_grid$&v=1676388993",
     "name": "Men’s PFG Super Slack Tide™ Camp Shirt",
-    "price": "$21.92",
+    "price": 21.92,
     "size":"XL"
   },
   {
+    "id":17,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1772051_664_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1772051_664_b?$x1_grid$&v=1676388993",
     "name": "Men's Utilizer™ Polo Shirt",
-    "price": "$24.91",
+    "price": 24.91,
     "size":"XS"
   },
   {
+    "id":18,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1928951_019_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1928951_019_b?$x1_grid$&v=1676388993",
     "name": "Men's PFG Blood and Guts™ IV Woven Short Sleeve Shirt",
-    "price": "$19.98",
+    "price": 19.98,
     "size":"L"
   },
   {
+    "id":19,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/2012941_397_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/2012941_397_b?$x1_grid$&v=1676388993",
     "name": "Men's Silver Ridge Utility™ Lite Plaid Long Sleeve Shirt",
-    "price": "$32.98",
+    "price": 32.98,
     "size":"S"
   },
   {
+    "id":20,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1990753_010_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1990753_010_b?$x1_grid$&v=1676388993",
     "name": "Men's Thistletown Hills™ Short Sleeve Shirt - Tall",
-    "price": "$14.91",
+    "price": 14.91,
     "size":"M"
   },
   {
+    "id":21,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/2013781_023_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/content/ColumbiaSportswear/GridPlaceholder-COL.gif",
     "name": "Men's Thistletown Hills™ Raglan Shirt",
-    "price": "$24.99",
+    "price": 24.99,
     "size":"XS"
   },
   {
+    "id":22,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1011652_337_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/content/ColumbiaSportswear/GridPlaceholder-COL.gif",
     "name": "Men’s PFG Bahama™ II Short Sleeve Shirt - Big",
-    "price": "$48.00",
+    "price": 48.00,
     "size":"M"
   },
   {
+    "id":23,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1772054_464_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/content/ColumbiaSportswear/GridPlaceholder-COL.gif",
     "name": "Men’s Utilizer™ Polo Shirt - Tall",
-    "price": "$50.00",
+    "price": 50.00,
     "size":"L"
   },
   {
+    "id":24,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1287053_804_f_om?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/content/ColumbiaSportswear/GridPlaceholder-COL.gif",
     "name": "Men’s PFG Tamiami™ II Short Sleeve Shirt - Big",
-    "price": "$45.00",
+    "price": 45.00,
     "size":"S"
   },
   {
+    "id":25,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1992911_346_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/content/ColumbiaSportswear/GridPlaceholder-COL.gif",
     "name": "Men's PFG™ Fish Flag II Hoodie",
-    "price": "$19.98",
+    "price": 19.98,
     "size":"XXS"
   },
   {
+    "id":26,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1929021_410_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/content/ColumbiaSportswear/GridPlaceholder-COL.gif",
     "name": "Men's PFG Terminal Tackle™ Carey Chen Long Sleeve Shirt",
-    "price": "$17.98",
+    "price": 17.98,
     "size":"XL"
   },
   {
+    "id":27,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/AM6769_466_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/content/ColumbiaSportswear/GridPlaceholder-COL.gif",
     "name": "Men's Hart Mountain™ II Crew Sweatshirt",
-    "price": "$32.91"
+    "price": 32.91
   },
   {
+    "id":28,
     "image1": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/FT7253_873_f?$x1_grid$&v=1676388993",
     "image2": "https://columbia.scene7.com/is/content/ColumbiaSportswear/GridPlaceholder-COL.gif",
     "name": "Men’s PFG Tamiami™ II Long Sleeve Shirt - Tall",
-    "price": "$27.98"
+    "price": 27.98
   }
 ]
 

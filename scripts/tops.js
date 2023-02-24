@@ -9,6 +9,7 @@ let s=document.getElementById('s')
 let m=document.getElementById('m')
 let l=document.getElementById('l')
 let xl=document.getElementById('xl')
+let cartarr=[]
 
 let fetched=[]
 fetch("http://localhost:3000/Tops")
@@ -36,17 +37,36 @@ function display(data){
         let name=document.createElement('h4')
         name.innerText=el.name
         let price=document.createElement('p')
-        price.innerText=el.price
+        price.innerText="$"+el.price
         let btn=document.createElement('button')
         btn.innerText="Add to Cart"
+        btn.addEventListener('click',function(){
+            if(duplicate(el)){
+              alert('Product Already in Cart')
+            }else{
+              cartarr.push(el)
+              localStorage.setItem('cart',JSON.stringify(cartarr))
+              alert('Product Added To Cart')
+            }
+      })
         div.append(image1,image2,name,price,btn)
         main.append(div)
     })
 }
+function duplicate(ele){
+    for(let i=0;i<cartarr.length;i++){
+      if(cartarr[i].id==ele.id){
+          return true
+      }
+    }
+    return false
+}
 fifty.addEventListener('click',function(){
     if(fifty.checked){
         let filtered=fetched.filter((el)=>{
-            return el.price<50
+            if(el.price>10 && el.price<20){
+                return true
+            }
         })
         display(filtered)
     }
@@ -54,7 +74,9 @@ fifty.addEventListener('click',function(){
 hun.addEventListener('click',function(){
     if(hun.checked){
         let filtered=fetched.filter((el)=>{
-            return +el.price<100
+            if(el.price>15 && el.price<25){
+                return true
+            }
         })
         display(filtered)
     }
@@ -62,7 +84,9 @@ hun.addEventListener('click',function(){
 one.addEventListener('click',function(){
     if(one.checked){
         let filtered=fetched.filter((el)=>{
-            return +el.price<150
+            if(el.price>20 && el.price<30){
+                return true
+            }
         })
         display(filtered)
     }
@@ -70,7 +94,9 @@ one.addEventListener('click',function(){
 over.addEventListener('click',function(){
     if(over.checked){
         let filtered=fetched.filter((el)=>{
-            return +el.price>150
+            if(el.price>30 && el.price<50){
+                return true
+            }
         })
         display(filtered)
     }

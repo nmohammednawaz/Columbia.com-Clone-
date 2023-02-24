@@ -7,7 +7,7 @@ a>h4{
     text-decoration: none;
     color: black;
     font-size: 17px;
-}
+} 
 body{
     font-family: 'Lato', sans-serif;
 }
@@ -128,7 +128,7 @@ section>h2{
     top: 10px;
 }
 .swiperr{
-    width: 40%;
+    width: 30%;
     margin: auto;
 }
 #g img{

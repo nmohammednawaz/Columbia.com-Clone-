@@ -9,6 +9,7 @@ let s=document.getElementById('s')
 let m=document.getElementById('m')
 let l=document.getElementById('l')
 let xl=document.getElementById('xl')
+let cartarr=[]
 
 let fetched=[]
 fetch("http://localhost:3000/sale")
@@ -39,9 +40,26 @@ function display(data){
         price.innerText="$"+el.price
         let btn=document.createElement('button')
         btn.innerText="Add to Cart"
+        btn.addEventListener('click',function(){
+            if(duplicate(el)){
+              alert('Product Already in Cart')
+            }else{
+              cartarr.push(el)
+              localStorage.setItem('cart',JSON.stringify(cartarr))
+              alert('Product Added To Cart')
+            }
+      })
         div.append(image1,image2,name,price,btn)
         main.append(div)
     })
+}
+function duplicate(ele){
+    for(let i=0;i<cartarr.length;i++){
+      if(cartarr[i].id==ele.id){
+          return true
+      }
+    }
+    return false
 }
 selectel.addEventListener('change',function(){
     if(selectel.value==""){
