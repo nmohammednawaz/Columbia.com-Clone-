@@ -3,9 +3,7 @@
     padding:0px;
 }
 #container{
-    
     width:100%;
-    height:2000px;;
 }
 #home{
     width:4%;
@@ -18,12 +16,12 @@
 /* form & order css */
 #main{
     width:90%;
-    height:900px;
-    
+    /* height:900px; */
     display: flex;
     margin: auto;
     margin-top:50px;
     justify-content: space-around;
+    padding-bottom: 30px;
 }
 #main>div{
    border:1px solid grey;
@@ -33,11 +31,11 @@
 }
 #order{
     width:40%;
-    height:900px;
+    /* height:900px; */
+    padding-bottom: 30px;
 }
 #heading{
     width:100%;
-
     height:75px;
     display:flex;
     justify-content: center;
@@ -56,7 +54,7 @@ h3{
     font-family: open sans,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
     font-weight: 400; 
     text-align: center;
-    margin-top: 40px;;
+    margin-top: 40px;
     color:#0D47A1;
 }
 #account{
@@ -108,45 +106,48 @@ p{
 }
 
 input{
-    width:95%;
-    height:60px;
+    width:90%;
+    height:40px;
     display:block;
     margin: auto;
     margin-top: 10px;
-    font-size: large;
+    font-size: 18px;
     border:1.2px solid black;
-    
+    padding: 10px;
 }
 #email{
     margin-bottom: 35px;;
 }
 label{
-    margin-left:15px;
+    margin-left:25px;
     font-size: small;
     color:grey;
     
 }
 #submit{
-    width:95%;
-    height:30px;
+    width:90%;
+    height:40px;
     margin-top: 30px;
     border:1.2px solid grey;
+    cursor: pointer;
+    padding: 10px;
 }
 #checkbox{
     width:20px;
     height:20px;
     margin-top:20px;
-    margin-left: 10px;
+    margin-left: 30px;
     margin-right:0px;;
 }
 #remember{
-    margin-left:35px;
+    margin-left:55px;
     margin-top:-19px;
     margin-bottom:20px;
 }
 #forgot{
     color:black;
-    margin-left:10px;
+    margin-left:30px;
+    text-decoration: underline;
     
 }
 
@@ -177,12 +178,14 @@ label{
     height:40px;
     margin: auto;
     margin-top: 30px;
-    font-size: smaller;
+    font-size: 18px;
     border:1.2px solid black;
+    cursor: pointer;
 }
 #help>h3{
     color:black;
     margin-left: -280px;
+    /* float: left; */
     font-weight: 500;
 }
 #contact>h3{

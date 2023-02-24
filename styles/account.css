@@ -105,6 +105,9 @@
     content: "\200C";
     display: block;
 }
+#no-orders-display{
+    display: none;
+}
 
 
 
