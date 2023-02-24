@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Page</title>
+    <style>
+        #label>div{
+            display: grid;
+            grid-template-columns: repeat(1,fr);
+            font-size: 30px;
+            
+            justify-content: center;
+            background-color:#DCEDC8;
+            margin-bottom: 30px;
+            
+            
+        }
+        #label>div>label{
+            margin-bottom: 20px;
+        }
+        
+
+        #container{
+           
+            width:30%;
+            background-color: #607D8B;
+           margin-left: 600px;
+           margin-top: 100px;
+           box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        }
+        #cart>h1{
+            font-size: 70px;
+            text-align: center;
+            background-color: #FFCC80;
+            
+        }
+        #price{
+            font-size: 50px;
+            width: 300px;
+           margin-left: 100px;
+           margin-bottom: 30px;
+           
+
+           
+            
+        }
+       #button>button{
+         font-size: 40px;
+         padding-left: 150px;
+         padding-right: 150px;
+         margin-left: 25px;
+         background-color: red;
+         border:none;
+        
+         
+         
+       }
+       body{
+        background-color:#EDE7F6;
+       }
+       
+       #name>div>input{
+        font-size: 30px;
+        text-align: center;
+       }
+       #address>div>input{
+        font-size: 30px;
+        text-align: center;
+       }
+       #phone>div>input{
+        font-size: 30px;
+        text-align: center;
+       }
+       #name>div{
+        margin-left: 70px;
+        margin-bottom: 15px;
+       }
+       #address>div{
+       
+        margin-bottom: 15px;
+       }
+       #phone>div{
+        
+        margin-bottom: 15px;
+       }
+    </style>
+  </head>
+  <body>
+     <div id="container">
+        <div id="cart">
+           
+              <h1>Payment</h1>
+              <div id="name">
+                <div>
+                   <input type="text" placeholder="Enter Name" id="name">
+                    
+                </div>
+                <div id="address">
+                  <div>
+                     <input type="text" placeholder="Enter Address" id="address">
+                  </div>
+                  <div id="phone">
+                    <div>
+                       <input type="number" placeholder="Phone Number" id="phone">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="label">
+                <div>
+                <label>
+                    <input type="radio"  name="UPI"> UPI
+                  </label>
+                  <label>
+                    <input type="radio" name="Wallet/Postpaid"> Wallet/Postpaid
+                  </label>
+                  <label>
+                    <input  type="radio" name="Credit/Debit/ATM Card"> Credit/Debit/ATM Card
+                  </label>
+                  <label>
+                    <input type="radio" name="Net Banking"> Net Banking
+                  </label>
+                  <label>
+                    <input type="radio" name="Cash On Delivery"> Cash On Delivery
+                  </label>
+                  <label>
+                    <input type="radio" name="EMI"> EMI
+                  </label>
+                </div>
+              </div>
+              <div id="amount">
+                <div>
+                    <input type="password" placeholder="Enter Price" id="price">
+                </div>
+                <div id="button">
+                    <button>PAY NOW</button>
+                </div>
+              </div>
+
+        </div>
+     </div>
+  </body>
+  <script>
+  
+
+    let btn=document.getElementById("button");
+    btn.addEventListener("click",()=>{
+        alert("Order Successfull !!")
+    })
+</script>
+</html>
