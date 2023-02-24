@@ -2,8 +2,249 @@
     margin:0px;
     padding:0px;
 }
-#container{
+.navbar{
+    width: 100%;
+    height: 50px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+ 
+  }
+  .left{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: open sans,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-size: 15px;
     
+ }
+ .right{
+    display: flex;
+    /* border: 2px solid green; */
+    width: 200px;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 35px;
+    font-size: 20px;
+    
+ }
+ .navbar a{
+    color: black;
+    text-decoration: none;
+ }
+ .right>div{
+    /* border: 2px solid red; */
+    width: 25%;
+    height: 100%;
+    padding-top: 12px;
+    padding-left: 12px;
+    
+ }
+ .customerCare{
+    position: relative;
+ }
+ .hideCustomer{
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 101%;
+    background-color: black;
+    display: none;
+   
+ 
+ }
+ 
+ .sideCust{
+    background-color: black;
+    position: absolute;
+    top: 10px;
+    left: -95px;
+    color: white;
+    font-size: small ;
+    padding: 2px 5px 3px 5px;
+    display: none;
+ }
+ .customerCare:hover .sideCust{
+    display: flex;
+   
+    
+ }
+ .sideCust::before{
+    position: absolute;
+    content: "";
+    /* background-color: red; */
+    margin: 30px;
+    top: -27px;
+    right: -45px;
+    border-top: 8px solid transparent;
+    border-left: 8px solid black;
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid transparent;
+ }
+ .customerCare:hover .hideCustomer{
+    display: flex;
+    color: white;
+    padding-top: 12px;
+    padding-left: 12px;
+ }
+ .findStore{
+    position: relative;
+    /* border: 2px solid  red; */
+ }
+ .hideFindStore{
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 101%;
+    background-color: black;
+    display: none;
+ 
+ 
+ 
+ }
+ .sideFind{
+    background-color: black;
+    
+    position: absolute;
+    top: 10px;
+    left: -84px;
+    color: white;
+    font-size: small ;
+   padding: 2px 5px 5px 5px;
+ 
+    display: none;
+  
+ }
+ .findStore:hover .sideFind{
+    display: flex;
+    
+ }
+ .sideFind::before{
+    position: absolute;
+    content: "";
+    /* background-color: red; */
+    margin: 30px;
+ 
+    top: -27px;
+    right: -45px;
+    border-top: 8px solid transparent;
+    border-left: 8px solid black;
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid transparent;
+ }
+ .findStore:hover .hideFindStore{
+    display: flex;
+    color: white;
+    padding-top: 12px;
+    padding-left: 12px;
+ }
+ .account{
+    position: relative;
+ 
+ }
+ .hideAccount{
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: none;
+ 
+ }
+ .sideAcc{
+    background-color: black;
+    position: absolute;
+    top: 10px;
+    left: -83px;
+    color: white;
+    font-size: small ;
+   padding: 2px 5px 5px 5px;
+ 
+    display: none;
+  
+ }
+ .account:hover .sideAcc{
+    display: flex;
+    
+ }
+ .sideAcc::before{
+    position: absolute;
+    content: "";
+    /* background-color: red; */
+    margin: 30px;
+ 
+    top: -27px;
+    right: -45px;
+    border-top: 8px solid transparent;
+    border-left: 8px solid black;
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid transparent;
+ }
+ .account:hover .hideAccount{
+    display: flex;
+    color: white;
+    padding-top: 12px;
+    padding-left: 12px;
+ }
+ .cart{
+    position: relative;
+    /* border: 2px solid  red; */
+ 
+ }
+ .hideCart{
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: none;
+ 
+ }
+ .sideCart{
+    background-color: black;
+    position: absolute;
+    top: 10px;
+    left: -40px;
+    color: white;
+    font-size: small ;
+   padding: 2px 5px 5px 5px;
+ 
+    display: none;
+  
+ }
+ .cart:hover .sideCart{
+    display: flex;
+    
+ }
+ .sideCart::before{
+    position: absolute;
+    content: "";
+    /* background-color: red; */
+    margin: 30px;
+ 
+    top: -27px;
+    right: -45px;
+    border-top: 8px solid transparent;
+    border-left: 8px solid black;
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid transparent;
+ }
+ .cart:hover .hideCart{
+    display: flex;
+    color: white;
+    padding-top: 12px;
+    padding-left: 12px;
+ }
+ 
+#container{
+
     width:100%;
     height:2000px;;
 }
