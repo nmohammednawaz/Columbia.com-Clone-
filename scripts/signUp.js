@@ -2,6 +2,8 @@ let home=document.querySelector("#home");
 home.addEventListener("click",()=>{
     window.location.href="index.html";
 });
+
+
 let UserForm=JSON.parse(localStorage.getItem('user'))||[];
 let formSubmit=document.querySelector("#form");
 formSubmit.addEventListener("submit",register);

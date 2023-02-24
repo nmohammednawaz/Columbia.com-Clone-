@@ -33,21 +33,22 @@
                     <p>* Required</p>
                 </div>
 
-                <input type="email" placeholder="Email *" id="email">
-                <input type="password" placeholder="Password *">
+                <input type="email" placeholder="Email *" id="email" autocomplete="username" required>
+                <input type="password" placeholder="Password *" id="password" autocomplete="new-password" required>
                 <label>Minimum of 8 characters 1 uppercase letter 1 lowercase letter 1 number</label> 
                 
 
-                <input type="text" placeholder="LOG IN" id="submit">
-
+               
                 
+                 <button id="submit" type="button">LOG IN</button>
+             
                 <input type="checkbox" id="checkbox">
                 <p id="remember">Remember me</p>
                 <a href="#" > <p id="forgot"> Forgot Password ></p> </a>
                 
                 
-                
-            </form>
+            </form> 
+            
              </div>
 
 
@@ -83,4 +84,5 @@
       </div>
     </div>
 </body>
+<script src="./scripts/LogIn.js"></script>
 </html>
