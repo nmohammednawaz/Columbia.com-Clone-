@@ -88,7 +88,6 @@ a{
 }
 /* form */
 #form{
-
     width:100%;
     height:80%;
 }
@@ -108,17 +107,17 @@ p{
     justify-content: space-between;
 }
 input{
-    width:95%;
-    height:60px;
+    width:90%;
+    height:40px;
     display:block;
     margin: auto;
     margin-top: 40px;
-    font-size: large;
+    font-size: 18px;
     border:1.2px solid black;
-    
+    padding: 10px;
 }
 label{
-    margin-left:15px;
+    margin-left:25px;
     font-size: small;
     color:grey;
 }
@@ -131,18 +130,16 @@ label{
 #radio{
     width:100%;
     height:50px;
-    
     display: flex;
     
     
 }
-.round{
+#radio > input[type="radio"]{
     width:20px;
     height:20px;
     margin-top:20px;
     margin-left:20px;
     margin-right:35px;
-    
 }
 .type{
     margin-top: 23px;
@@ -167,6 +164,8 @@ select{
     width:100%;
     height:65%;
     margin-top:5px;
+    font-size: 18px;
+    padding: 10px;
 }
 #checkbox{
     width:20px;
@@ -183,16 +182,17 @@ select{
     margin-left:5px;
 }
 #banner{
-    
     margin-top: 30px;
     width:100%;
-    height:180px;
+    height:200px;
     background-color: black;
 }
 #head1{
     color:white;
     font-size: 55px;
     font-weight: 400;
+    text-align: center;
+    display: block;
 }
 #head2{
     color:white;
@@ -201,9 +201,8 @@ select{
 #text{
     width:100%;
     height:40%;
-
-    display: flex;
-    justify-content: space-between;
+    margin: auto;
+    padding-top: 20px;
 }
 #checkbox1{
     width:20px;
@@ -219,11 +218,13 @@ select{
 }
 #text2{
     display: flex;
+    padding: 0px 10px;
 }
 #submit{
     width:80%;
     height:40px;
     border:1.2px solid grey;
+    cursor: pointer;
 }
 #bottom{
     width:80%;
@@ -255,12 +256,12 @@ select{
     margin-top: 10px;
 }
 #submit1{
-    width:95%;
+    width:90%;
     height:40px;
     margin: auto;
     margin-top: 30px;
-    font-size: smaller;
-    border:1.2px solid black;
+    /* border:1.2px solid black; */
+    cursor: pointer;
 }
 #help>h3{
     color:black;

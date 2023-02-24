@@ -33,54 +33,57 @@
                     <p>* Required</p>
                 </div>
 
-                <input type="email" autocomplete="username" placeholder="Email *" id="email">
-                <input type="password" autocomplete="new-password" placeholder="Password *" id="password">
+                <input type="email" autocomplete="username" placeholder="Email *" id="email" required>
+                <input type="password" autocomplete="new-password" placeholder="Password *" id="password" required>
                 <label>Minimum of 8 characters 1 uppercase letter 1 lowercase letter 1 number</label> 
-                <input type="password" autocomplete="current-password" placeholder="Confirm Password *" id="verifyPass">
+                <input type="password" autocomplete="current-password" placeholder="Confirm Password *" id="verifyPass" required>
 
                 <div id="title">
                     <h2>My Profile</h2>
                     
                 </div>
 
-                <input type="text" placeholder="First Name *" id="firstName">
-                <input type="text" placeholder="Last Name *" id="lastName">
-                <input type="number" placeholder="Zip Code *" id="ZipCode">
-                <input type="number" placeholder="Phone *" id="Phone">
+                <input type="text" placeholder="First Name *" id="firstName" required>
+                <input type="text" placeholder="Last Name *" id="lastName" required>
+                <input type="number" placeholder="Zip Code *" id="ZipCode" required>
+                <input type="number" placeholder="Phone *" id="Phone" required>
                 <label>Example: (555) 555-5555</label>
 
                 <p id="gender">Gender</p>
+
                 <div id="radio">
-                <input type="radio" class="round" placeholder="Male">
-                <p class="type">Male</p>
-                <input type="radio" class="round" placeholder="Female">
-                <p class="type">Female</p>
-                <input type="radio" class="round" placeholder="Prefer not to answer">
-                <p class="type">Prefer not to answer</p>
+                    <input type="radio" name="gender" value="Male">
+                    <p class="type">Male</p>
+
+                    <input type="radio" name="gender" value="Female">
+                    <p class="type">Female</p>
+
+                    <input type="radio" name="gender" value="NA">
+                    <p class="type">Prefer not to answer</p>
                 </div>
 
                 <div id="date">
                     <div id="Month">
                       <p>Birth Month</p>
-                      <select id="birthMonth" name="month">
+                      <select id="birthMonth" name="month" required>
                         <option value="">Month</option>
-                        <option value="01 - January">01 - January</option>
-                        <option value="02 - February">02 - February</option>
-                        <option value="03 - March">03 - March</option>
-                        <option value="04 - April">04 - April</option>
-                        <option value="05 - May">05 - May</option>
-                        <option value="06 - June">06 - June</option>
-                        <option value="07 - July">07 - July</option>
-                        <option value="08 - August">08 - August</option>
-                        <option value="09 - September">09 - September</option>
-                        <option value="10 - October">10 - October</option>
-                        <option value="11 - November">11 - November</option>
-                        <option value="12 - December">12 - December</option>
+                        <option value="January">01 - January</option>
+                        <option value="February">02 - February</option>
+                        <option value="March">03 - March</option>
+                        <option value="April">04 - April</option>
+                        <option value="May">05 - May</option>
+                        <option value="June">06 - June</option>
+                        <option value="July">07 - July</option>
+                        <option value="August">08 - August</option>
+                        <option value="September">09 - September</option>
+                        <option value="October">10 - October</option>
+                        <option value="November">11 - November</option>
+                        <option value="December">12 - December</option>
                       </select>
                     </div>
                     <div id="day">
                         <p>Birth Day</p>
-                        <select id="birthDay" name="day">
+                        <select id="birthDay" name="day" required>
                             <option value="">Day</option>
                             <option value="01">01</option>
                             <option value="02">02</option>
@@ -126,8 +129,7 @@
 
                 <div id="banner">
                     <div id="text">
-                        <h1 id="head1">GREATER</h1>
-                        <h1 id="head2">REWARDS</h1>
+                        <h1 id="head1">GREATERREWARDS</h1>
                     </div>
                     <div id="text2">
                         <input type="checkbox" name="" id="checkbox1" placeholder="checkbox1">
@@ -160,7 +162,7 @@
             <label>e.g. 15133006 or 200006567</label>
             <input type="text" placeholder="Email *">
             <input type="text" placeholder="Billing Zip No *">
-            <input type="text" id="submit1" placeholder="FIND ORDER">
+            <input type="submit" id="submit1" placeholder="FIND ORDER">
 
             <div id="help">
                 <h3>NEED HELP?</h3>
