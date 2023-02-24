@@ -7,24 +7,36 @@ let formSubmit=document.querySelector("#form");
 formSubmit.addEventListener("submit",register);
 
 
-function register(){
-    // e.preventDefault();
+function register(e){
+     e.preventDefault();
 
-    var obj={
-        email:document.querySelector("#email").value,
-        password:document.querySelector("#password").value,
-        verifyPassword:document.querySelector("#verifyPass").value,
-        firstName:document.querySelector("#firstName").value,
-        lastName:document.querySelector("#lastName").value,
-        ZipCode:document.querySelector("#ZipCode").value,
-        phone:document.querySelector("#Phone").value,
-        gender:document.querySelector("#radio").value,
-        BirthMonth:document.querySelector("#birthMonth").value,
-        BithDay:document.querySelector("#birthDay").value,
-
-    }
     
-   UserForm.push(obj);
+     let   email=document.querySelector("#email").value;
+     let   password=document.querySelector("#password").value;
+     let   verifyPassword=document.querySelector("#verifyPass").value
+     let   firstName=document.querySelector("#firstName").value
+     let   lastName=document.querySelector("#lastName").value
+     let   ZipCode=document.querySelector("#ZipCode").value
+     let   phone=document.querySelector("#Phone").value
+     let   ele=document.getElementsByName("gender");
+             for(let i=0;i<ele.length;i++){
+                if(ele[i].checked){
+                    gender=ele[i].value;
+                }
+             }
+     let    BirthMonth=document.querySelector("#birthMonth").value
+     let    BithDay=document.querySelector("#birthDay").value
+     let    sendEmail=document.getElementById("checkbox");
+            if(sendEmail.checked){
+                 sendEmail=true;
+            }
+     let    greaterReward=document.getElementById("checkbox1");
+            if(greaterReward.checked){
+                greaterReward=true;
+            }
+
+    
+   UserForm.push({email,password,verifyPassword,firstName,lastName,ZipCode,phone,gender,BirthMonth,BithDay,sendEmail,greaterReward});
    
 
    localStorage.setItem('user',JSON.stringify(UserForm));
