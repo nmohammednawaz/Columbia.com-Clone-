@@ -2,6 +2,12 @@ let showProfileDetails = document.getElementById("show-profile");
 
 let currentusr = JSON.parse(localStorage.getItem("current-user"));
 
+let goToHomeBtn = document.getElementById("go-to-home");
+
+goToHomeBtn.addEventListener("click", () => {
+    window.location.href = "./index.html";
+})
+
 let pass = "";
 for(let i = 0; i < currentusr.password.length; i++){
     pass += "*";

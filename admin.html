@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/skeleton.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>ADMIN | FABRICA</title>
+  </head>
+  <body>
+    <div id="nav">
+        <nav id="nav2">
+            <img src="./images/fab.logo.png" alt="logo">
+            <a href="./admin.html">Fabrica</a>
+            <button id="logoutBtn">Logout &#8594</button>
+        </nav>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="column">
+          <h1>ADMIN</h1>
+          <p id="display-totol-products">0 Products</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="columns four sidebar-one" id="sidebar-one">
+
+          <h4>Add Product</h4>
+          <input
+            type="text"
+            id="product-name"
+            class="u-full-width"
+            placeholder="Name"
+          />
+          <input
+            type="text"
+            id="image-1"
+            class="u-full-width"
+            placeholder="Image Url 1"
+          />
+          <input
+            type="number"
+            id="image-2"
+            class="u-full-width"
+            placeholder="Image Url 2"
+          />
+          <input
+            type="number"
+            id="price"
+            class="u-full-width"
+            placeholder="Price"
+          />
+          <button id="add-employee" class="u-full-width button button-primary">
+            Add Product
+          </button>
+          <hr />
+
+          <h4>Update all fields of Product</h4>
+          <input
+            type="text"
+            id="update-employee-id"
+            class="u-full-width"
+            placeholder="ID"
+          />
+          <input
+            type="text"
+            id="update-product-name"
+            class="u-full-width"
+            placeholder="Name"
+          />
+          <input
+            type="text"
+            id="update-image-1"
+            class="u-full-width"
+            placeholder="Image Url 1"
+          />
+          <input
+            type="number"
+            id="update-image-2"
+            class="u-full-width"
+            placeholder="Image Url 2"
+          />
+          <input
+            type="number"
+            id="update-price"
+            class="u-full-width"
+            placeholder="Price"
+          />
+          <button
+            id="update-employee"
+            class="u-full-width button button-primary"
+          >
+            Update Product
+          </button>
+          <hr />
+
+          <h4>Update Price</h4>
+          <input
+            type="text"
+            id="update-score-product-id"
+            class="u-full-width"
+            placeholder="ID"
+          />
+          <input
+            type="number"
+            id="update-score-product-price"
+            class="u-full-width"
+            placeholder="Price"
+          />
+          <button
+            id="update-score-employee"
+            class="u-full-width button button-primary"
+          >
+            Update Price
+          </button>
+          <hr />
+
+          <h4>Log in an existing User</h4>
+          <input type="text" id="login-user-username" class="u-full-width" placeholder="username" />
+          <input type="password" id="login-user-passowrd" class="u-full-width" placeholder="password" />
+          <button id="login-user" class="u-full-width button button-primary">Login User</button>
+          
+    </div>
+
+    <script src="./scripts/admin.js" type="module"></script>
+  </body>
+</html>

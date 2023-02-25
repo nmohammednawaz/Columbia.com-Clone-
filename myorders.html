@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile | Fabrica</title>
-    <link rel="stylesheet" href="./styles/profile.css">
+    <title>orders | Fabrica</title>
+    <link rel="stylesheet" href="./styles/myorders.css">
 </head>
 <body>
-    <div class="profile_main">
+    <div class="myorders_main">
 
         <p id="go-to-home">Home <span>&#62;</span> My Account</p>
         <!-- Display users name from the backend -->
-        <h1>Account Info</h1>
+        <h1>Order History</h1>
 
         <img src="https://columbia.scene7.com/is/image/ColumbiaSportswear2/COL_x1NA_Launch_Account_v2_XL?$aem_pjpeg$" alt="">
 
@@ -33,14 +33,23 @@
                 <p>If you have any additional questions or need help with your account, <a href="">Contact Us.</a></p>
             </div>
 
-            <div id="show-profile">
-                <!-- Append Data from Current_User -->
+            <div id="show-myorders">
+                <h4>My Orders</h4>
+                <hr class="profile-hr">
+
+                <div id="orders-line">
+                    
+                </div>
+                
+
+                <p id="update-myorders-text">There are no orders associated to your account.</p>
+                
+                <!-- <button id="add-adress">ADD ADDRESS</button> -->
             </div>
         </div>
 
     </div>
 
-
-    <script src="./scripts/profile.js"></script>
+    <script src="./scripts/myOrders.js"></script>
 </body>
 </html>

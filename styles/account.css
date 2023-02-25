@@ -108,7 +108,20 @@
 #no-orders-display{
     display: none;
 }
-
+#go-to-home{
+    cursor: pointer;
+}
+#logout-btn{
+    background-color: red;
+    height: 30px;
+    color: white;
+    padding: 5px;
+    float: right;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 80px;
+    font-weight: bold;
+}
 
 
 

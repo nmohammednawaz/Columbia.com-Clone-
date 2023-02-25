@@ -1,7 +1,9 @@
 let home=document.querySelector("#home");
+
 home.addEventListener("click",()=>{
     window.location.href="index.html";
 });
+
 let UserForm=JSON.parse(localStorage.getItem('user'))||[];
 let formSubmit=document.querySelector("#form");
 
@@ -29,6 +31,7 @@ formSubmit.addEventListener("submit", (e) => {
             return false;
         }
     });
+
     let selectedGender = null;
     for(let el of gender){
         if(el.checked){
@@ -42,7 +45,7 @@ formSubmit.addEventListener("submit", (e) => {
         return false;
     }
     if(password != confirm_pass.value){
-        alert("Password did'nt match");
+        alert("Password didn't match..!");
         confirm_pass.focus();
         return false;
     }
@@ -55,46 +58,9 @@ formSubmit.addEventListener("submit", (e) => {
         phone: +phoneNumber,
         gender: selectedGender,
         Birthday: birthDay, 
-        address: [
-            {
-                name: "nawaz",
-                address1: "#8 Rite Callisto Apartments",
-                area: "RT Nagar",
-                pincode: 560032,
-                city: "Bangalore",
-                country: "India",
-                phone: "9036146615"
-            },
-            {
-                name: "Thahseen",
-                address1: "#8 Rite Callisto Apartments",
-                area: "RT Nagar",
-                pincode: 560032,
-                city: "Bangalore",
-                country: "India",
-                phone: "9036246615"
-            }
-        ],
-        orders: [
-            {
-                id: 123,
-                totalPrice: 786,
-                orderPlaced: 15/12/2020,
-                items: []
-            }, 
-            {
-                id: 1233,
-                totalPrice: 786,
-                orderPlaced: 15/12/2020,
-                items: []
-            },
-            {
-                id: 1234,
-                totalPrice: 786,
-                orderPlaced: 15/12/2020,
-                items: []
-            }
-        ]
+        address: [],
+        orders: [],
+        cart: []
     }
     
    UserForm.push(obj);
@@ -102,16 +68,19 @@ formSubmit.addEventListener("submit", (e) => {
    localStorage.setItem("user", JSON.stringify(UserForm));
 
 
-   email.value = "";
-   password.value = "";
-   confirm_pass.value = "";
-   fName.value = "";
-   lName.value = "";
-   zipCode.value = "";
-   phoneNumber.value = "";
-   gender.value = "";
-   brtdyMonth.value = "";
-   brtdate.value = "";
+    fName.value = "";
+    lName.value = "";
+    email.value = "";
+    gender.value = "";
+    password.value = "";
+    confirm_pass.value = "";
+    zipCode.value = "";
+    phoneNumber.value = "";
+    brtdyMonth.value = "";
+    brtdate.value = "";
+
+    alert("Account Created Successfully...!")
+    window.location.href = "./logIn.html";
 
 });
 

@@ -86,6 +86,9 @@
 .update-address-text{
     margin-left: 3%;
 }
+#go-to-home{
+    cursor: pointer;
+}
 
 
 

@@ -1,15 +1,15 @@
-.profile_main{
+.myorders_main{
     width: 95%;
     margin: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.profile_main > h1{
+.myorders_main > h1{
     font-weight: bold;
 }
-.profile_main > img{
+.myorders_main > img{
     width: 100%;
 }
-.profile_main > p > span{
+.myorders_main > p > span{
     font-size: 14px;
 }
 .filter-and-display{
@@ -43,14 +43,14 @@
     border-top: 1px solid rgb(229, 229, 229);
     cursor: pointer;
 }
-#select-filter > a:nth-child(2) > button{
+#select-filter > a:nth-child(3) > button{
     background-color: #333;
     color: white;
 }
 #select-filter > a > button:hover{
     text-decoration: underline;
 }
-#show-profile{
+#show-myorders{
     margin-top: 30px;
     width: 65%;
     line-height: 10px;
@@ -61,20 +61,11 @@
     margin-left: 0px;
     display: block;
 }
-#show-profile > p{
+#show-myorders > p{
     font-size: 14px;
 }
-#show-profile > p > span{
-    font-weight: bold;
-}
-#edit-my-account{
-    width: 35%;
-    height: 40px;
-    background-color: #333;
-    color: white;
-    display: block;
-    margin-left: 15%;
-    cursor: pointer;
+#update-myorders-text{
+    display: none;
 }
 #go-to-home{
     cursor: pointer;
@@ -90,7 +81,7 @@
         width: 90%;
         margin-left: 30px;
     }
-    #show-profile{
+    #show-myorders{
         width: 90%;
         margin-left: 20px;
     }
