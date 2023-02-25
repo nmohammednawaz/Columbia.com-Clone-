@@ -9,10 +9,8 @@ let s=document.getElementById('s')
 let m=document.getElementById('m')
 let l=document.getElementById('l')
 let xl=document.getElementById('xl')
-let curUSr = JSON.parse(localStorage.getItem("current-user"));
-if(curUSr.cart == null){
-    curUSr.cart = [];
-}
+let curUSr = JSON.parse(localStorage.getItem("current-user"))||[]
+
 
 let fetched=[]
 fetch("http://localhost:3000/Tops")
@@ -43,6 +41,8 @@ function display(data){
         price.innerText="$"+el.price
         let btn=document.createElement('button')
         btn.innerText="Add to Cart"
+        let Delete=document.createElement('button')
+        Delete.innerText="Delete"
         btn.addEventListener('click',function(){
             if(duplicate(el)){
                 alert('Product Already in Cart')
@@ -51,8 +51,18 @@ function display(data){
                 localStorage.setItem('current-user',JSON.stringify(curUSr))
                 alert('Product Added To Cart');
               }
-      })
-        div.append(image1,image2,name,price,btn)
+       })
+        Delete.addEventListener('click',function(){
+            fetched=fetched.filter((el,i)=>{
+                if(ind==i){
+                  return false
+                }else{
+                  return true
+                }
+            })
+          display(fetched)
+        })
+        div.append(image1,image2,name,price,btn,Delete)
         main.append(div)
     })
 }
