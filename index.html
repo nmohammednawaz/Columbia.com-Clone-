@@ -50,7 +50,7 @@
                 </div>
             </div>
             <div class="account">
-                <a href="">
+                <a href="" id="go-to-my-account">
                     <i class="fa-sharp fa-solid fa-circle-user"></i>
                     <div class="hideAccount">
                         <i class="fa-sharp fa-solid fa-circle-user"></i>
@@ -1683,6 +1683,9 @@
 
 </div>
 </main>
+
+
+<!-- -------------------------End of Navbar -------------------------------------- -->
 <div class="imageLink">
     <img src="./images/logoimg.png" alt="">
    
@@ -1753,16 +1756,30 @@
 
 </body>
 <script>
+    let goToUserAccount = document.getElementById("go-to-my-account");
       let slide=document.getElementById("imgCard");
       let items=document.getElementsByClassName("item");
       let next= document.getElementById("next");
       let pre=document.getElementById("pre");
+      
+
       next.addEventListener("click", ()=>{
             slide.append(items[0]);
       });
       pre.addEventListener("click",()=>{
         slide.prepend(items[items.length-1]);
       })
+
+      goToUserAccount.addEventListener("click", (e) => {
+        e.preventDefault();
+        let curUsr = JSON.parse(localStorage.getItem("current-user"));
+        if(curUsr == null){
+            window.location.href = "./logIn.html";
+        }else{
+            window.location.href = "./account.html";
+        }
+      })
+
 </script>
   
 </html>

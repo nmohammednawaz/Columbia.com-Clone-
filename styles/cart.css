@@ -1,0 +1,19 @@
+#cart_main{
+    width: 95%;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#cart_main > h3{
+    text-align: center;
+}
+.greater-reward{
+    text-align: center;
+    border: 1px solid rgb(196, 196, 196);
+    padding: 20px 0px;
+}
+.greater-reward > h1 > img{
+    width: 40px;
+}
+#cart-items > h3{
+    text-align: center;
+}

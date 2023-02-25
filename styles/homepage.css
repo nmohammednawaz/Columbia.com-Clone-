@@ -175,8 +175,7 @@
    left: -83px;
    color: white;
    font-size: small ;
-  padding: 2px 5px 5px 5px;
-
+   padding: 2px 5px 5px 5px;
    display: none;
  
 }
@@ -542,6 +541,8 @@
   .lowerRight:hover .searchPopup{
   display: flex;
   }
+
+  /* ----------------------------End of Navbar ---------------------------------- */
   .imageLink {
 
    margin-top: 150px;
@@ -558,6 +559,8 @@
   
    margin-bottom: 150px;  
   }
+  
+
   
   .imageLink img{
    width: 130px;

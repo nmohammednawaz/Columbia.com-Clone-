@@ -3,6 +3,12 @@ let curr_user = JSON.parse(localStorage.getItem("current-user"));
 let showAddresses = document.getElementById("show-address");
 let addressLine = document.getElementById("address-line");
 
+let goToHomeBtn = document.getElementById("go-to-home");
+
+goToHomeBtn.addEventListener("click", () => {
+    window.location.href = "./index.html";
+})
+
 function createAddress(curr_user_address){
 
     let addressType = document.createElement("h5");

@@ -4,6 +4,19 @@ let greetUserName = document.getElementById("greet-user");
 let currentUser = JSON.parse(localStorage.getItem("current-user"));
 
 let noOrdersDisplay = document.getElementById("no-orders-display");
+let logoutBtn = document.getElementById("logout-btn");
+
+logoutBtn.addEventListener("click", () => {
+    currentUser = null;
+    localStorage.setItem("current-user", JSON.stringify(currentUser));
+    window.location.href = "./index.html";
+})
+
+let goToHomeBtn = document.getElementById("go-to-home");
+
+goToHomeBtn.addEventListener("click", () => {
+    window.location.href = "./index.html";
+})
 
 greetUserName.innerText = "Welcome "+currentUser.name;
 
