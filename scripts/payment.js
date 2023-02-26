@@ -1,5 +1,7 @@
 let paymentForm = document.getElementById("payment-form");
 let curUsr = JSON.parse(localStorage.getItem("current-user"));
+let paymentBtn = document.getElementById("payment-btn");
+paymentBtn.value = "Pay $" + curUsr.totalPrice;
 
 let orderID = curUsr.orders.length;
 

@@ -2,9 +2,11 @@
     width: 95%;
     margin: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30vh;
 }
 .accounts_main > h1{
     font-weight: bold;
+    margin-bottom: 30px;
 }
 .image-with-text{
     width: 95%;
@@ -21,6 +23,7 @@
     font-size: 36px;
     font-weight: bolder;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 30px;
 }
 .image-with-text > button{
     width: 10%;
@@ -121,6 +124,8 @@
     cursor: pointer;
     width: 80px;
     font-weight: bold;
+    margin-top: -50px;
+    margin-right: 70px;
 }
 
 
