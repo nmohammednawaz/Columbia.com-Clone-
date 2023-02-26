@@ -6,6 +6,11 @@ let subTotalPrice = document.getElementById("sub-total-price");
 let cartTotal = document.getElementById("cart-total");
 let selectDeliveryAddress = document.getElementById("select-address");
 let checkoutBtn = document.getElementById("checkout-button");
+let updateCartText = document.getElementById("update-cart-text");
+
+if(currentUser.cart.length != 0){
+    updateCartText.style.display = "none";
+}
 
 let count = 1;
 function createAddressList(adrs){
@@ -131,7 +136,7 @@ function displayCart(product){
                 let updatedUser = JSON.parse(localStorage.getItem("current-user"));
                 totalPrice = 0;
                 updatedUser.cart.forEach(prod => {
-                    totalPrice += prod.subTotal;
+                    totalPrice += +prod.subTotal;
                 })
                 subTotalPrice.innerText = "$" + (totalPrice).toFixed(2);
                 cartTotal.innerText = "$"+ (totalPrice+6).toFixed(2);
