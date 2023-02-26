@@ -9,10 +9,17 @@ goToHomeBtn.addEventListener("click", () => {
     window.location.href = "./index.html";
 })
 
+let addAddressBtn = document.getElementById("add-adress");
+
+addAddressBtn.addEventListener("click", () => {
+    window.location.href = "./addAddress.html";
+})
+
+
 function createAddress(curr_user_address){
 
     let addressType = document.createElement("h5");
-        addressType.innerText = "* Home";
+        addressType.innerText = curr_user_address.addressType;
 
     let name = document.createElement("p");
         name.innerText = curr_user_address.name;
@@ -49,3 +56,5 @@ function createAddress(curr_user_address){
 curr_user.address.forEach(address => {
     createAddress(address);
 });
+
+

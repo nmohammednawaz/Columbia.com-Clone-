@@ -1,0 +1,33 @@
+.payments_main{
+    width: 90%;
+    margin: auto;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.payments_main > h3{
+    text-align: center;
+}
+.payments-form{
+    width: 40%;
+    margin: auto; 
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;  
+    padding: 20px;
+}
+#payment-form > input{
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 30px;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 30px;
+}
+#payment-form > input[type = "submit"]{
+    height: 40px;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}

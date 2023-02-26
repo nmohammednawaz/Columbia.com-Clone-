@@ -20,18 +20,53 @@
 
         <div id="cart-and-summary">
 
-            
             <div id="cart-items">
-
                 <h3>Your Shopping Cart is Empty</h3>
+                <table class="cart-table">
+                  <thead id="cart-table-head">
+                    <th id="total-items">0 ITEMS</th>
+                    <th>PRICE</th>
+                    <th>QTY</th>
+                    <th>SUBTOTAL</th>
+                  </thead>
+                  <tbody id="cart-table-body">
+                    <!-- Append Data from User -->
+                  </tbody>
+                </table>
+
             </div>
 
             <div id="summary">
-
+              <img src="./images/fab.logo.png" alt="logo">
+              <a href="./index.html">Fabrica</a>
+              <div class="order-summary">
+                <div class="order-summary-heading">
+                  <p>SUBTOTAL</p>
+                  <p>STANDARD DELIVERY</p>
+                  <P>ESTIMATED TAX</P>
+                  <hr>
+                  <h5>ESTIMATED TOTAL</h5>
+                </div>
+                <div class="order-summary-pricing">
+                  <p id="sub-total-price">$0</p>
+                  <p>$6</p>
+                  <p>$0</p>
+                  <hr>
+                  <h5 id="cart-total">$0</h5>
+                </div>
+              </div>
+              <button id="checkout-button">CHECKOUT</button>
             </div>
         </div>
 
     </div>
 
+    <div class="select-delivery-address">
+      <select id="select-address" required>
+        <option value="">Select Delivery Address</option>
+      </select>
+    </div>
+
+    <script src="./scripts/cart,js"></script>
 </body>
 </html>
