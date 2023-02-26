@@ -15,6 +15,7 @@ body{
     padding: 27px 16px 32px;
     background-color: #9C183D;
     height: 120px;
+    margin-top: 18vh;
 }
 #a>h1,p,a>p{
     color: white;

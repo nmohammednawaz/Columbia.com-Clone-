@@ -126,9 +126,6 @@ body {
   height: 101%;
   background-color: black;
   display: none;
-
-
-
 }
 
 .sideFind {
@@ -629,6 +626,9 @@ form input{
   display: flex;
 }
 
+
+/* -----------------End of Navbar-------------------- */
+
 .imageLink {
 
   margin-top: 150px;
@@ -1106,6 +1106,7 @@ p {
   margin: 10px;
 }
 
+/* --------------------Footer ------------------------------------------------------- */
 .upperPart {
   display: flex;
   text-align: center;

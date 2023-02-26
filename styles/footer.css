@@ -1,0 +1,153 @@
+.upperPart {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .upperPart>div {
+    width: 23%;
+    height: 200px;
+    /* border: 2px solid green; */
+    padding-top: 30px;
+  }
+  
+  .upperPart>div>a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .lowerPart {
+    background-color: #333030;
+    width: 100%;
+    height: 800px;
+  }
+  
+  .logoDiv {
+    padding-top: 30px;
+  
+    text-align: center;
+  }
+  
+  .logoDiv a {
+    color: white;
+    text-decoration: none;
+  
+  }
+  
+  .logoDiv i {
+    font-size: 10px;
+    margin: 5px;
+  }
+  
+  .footerLower {
+    display: flex;
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 450px;
+    justify-content: center;
+  
+  }
+  
+  .footerLowerleft {
+    /* border: 2px solid green; */
+    width: 49%;
+    height: 90%;
+    margin-top: 50px;
+    display: flex;
+  
+  }
+  
+  .footerLowerRight {
+    /* border: 2px solid rgb(60, 0, 128); */
+    width: 49%;
+    height: 90%;
+    margin-top: 50px;
+  }
+  
+  .about {
+    color: white;
+    margin-right: 59px;
+  }
+  
+  .about p {
+    font-weight: 800;
+  }
+  
+  .about a {
+    color: white;
+    text-decoration: none;
+  
+  }
+  
+  .about li {
+    list-style: none;
+    padding-left: 10px;
+    line-height: 25px;
+  }
+  
+  .shop {
+    color: white;
+    margin-right: 59px;
+  }
+  
+  .shop p {
+    font-weight: 800;
+  }
+  
+  .shop a {
+    color: white;
+    text-decoration: none;
+  
+  }
+  
+  .shop li {
+    list-style: none;
+    padding-left: 10px;
+    line-height: 25px;
+  }
+  
+  .footerLowerRight {
+    padding-left: 100px;
+    padding-top: 10px;
+    color: white;
+  }
+  
+  .footerLowerRight a {
+    color: white;
+  }
+  
+  .mail {
+    background-color: white;
+    width: 90%;
+    height: 50px;
+    padding-top: 5px;
+  
+    /* border: 2px solid red; */
+  }
+  
+  .mail i {
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+  
+  }
+  
+  .mail input {
+    font-size: 15px;
+    width: 82%;
+    border: none;
+    outline: none;
+  }
+  
+  .footerIcon i {
+    padding-top: 20px;
+    padding-left: 40px;
+  }
+  
+  .lowerCustomer {
+    margin-top: 50px;
+  }
+  
+  .lowerCustomer a {
+    color: white;
+  }

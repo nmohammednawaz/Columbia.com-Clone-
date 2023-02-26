@@ -30,7 +30,8 @@ function createAddress(curr_user_orders){
 
 }
 
-if(curr_user.orders.length == 0){
+let orders_length = curr_user.orders.length;
+if(orders_length == 0){
     updateOrders.style.display = "block";
 }else{
     curr_user.orders.forEach(myOrders => {

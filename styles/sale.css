@@ -4,6 +4,7 @@ body{
 }
 #a>h1{
     font-weight: bold;
+    margin-top: 30vh;
 }
 #b>img{
     width: 100%;

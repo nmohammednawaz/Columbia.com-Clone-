@@ -195,3 +195,27 @@
 .italic {
   font-style: italic;
 }
+
+
+.adminlogin_main{
+  width: 90%;
+  margin: auto;
+  margin-top: 20vh;
+}
+.adminlogin_main > h3{
+  text-align: center;
+}
+.admin-login-form{
+  width: 30%;
+  margin: auto;
+}
+#admin-login-form > input{
+  display: block;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+#admin-login-form > input[type = "submit"]{
+  background-color: #333;
+  color: white;
+}

@@ -1,3 +1,15 @@
+let goToAccc = document.getElementById("go-to-account");
+let curUsr = JSON.parse(localStorage.getItem("current-user"));
+
+goToAccc.addEventListener("click", ()=>{
+   if(curUsr == null){
+      window.location.href = "./logIn.html";
+   }else{
+      window.location.href = "./account.html";
+   }
+})
+
+
 let searchForm= document.querySelector("form");
   searchForm.addEventListener("submit",(e)=>{
     e.preventDefault()

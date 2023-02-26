@@ -1,4 +1,4 @@
-#con{
+#addAddress_main{
     width: 40%;
     margin: auto;
     margin-top: 20vh;
@@ -7,13 +7,13 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 10px;
 }
-#con > h2{
+#addAddress_main > h2{
     text-align: center;
 }
-form{
+#add-address-form{
     padding: 10px;
 }
-input{
+#add-address-form > input{
     display: block;
     width: 80%;
     margin: auto;
@@ -22,7 +22,7 @@ input{
     font-size: 18px;
     margin-bottom: 20px;
 }
-input[type = "submit"]{
+#add-address-form > input[type = "submit"]{
     height: 50px;
     border-radius: 10px;
     background-color: #333;
