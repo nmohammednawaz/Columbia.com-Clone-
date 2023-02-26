@@ -1,0 +1,31 @@
+#con{
+    width: 40%;
+    margin: auto;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+#con > h2{
+    text-align: center;
+}
+form{
+    padding: 10px;
+}
+input{
+    display: block;
+    width: 80%;
+    margin: auto;
+    height: 30px;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+input[type = "submit"]{
+    height: 50px;
+    border-radius: 10px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}

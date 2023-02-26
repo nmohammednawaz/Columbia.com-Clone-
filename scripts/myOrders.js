@@ -18,7 +18,7 @@ function createAddress(curr_user_orders){
         orderPlacedOn.innerText = "Order Placed On: " + curr_user_orders.orderPlaced;
 
     let totalItems = document.createElement("p");
-        totalItems.innerText = "Total Items: " + curr_user_orders.items.length;
+        totalItems.innerText = "Total Items: " + curr_user_orders.items;
 
     let totalPrice = document.createElement("p");
         totalPrice.innerText = "Total Price: " + curr_user_orders.totalPrice;

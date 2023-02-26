@@ -1,14 +1,43 @@
 let tableBody = document.getElementById("table-body");
 let greetUserName = document.getElementById("greet-user");
 
+let userData = JSON.parse(localStorage.getItem("user"));
 let currentUser = JSON.parse(localStorage.getItem("current-user"));
 
 let noOrdersDisplay = document.getElementById("no-orders-display");
 let logoutBtn = document.getElementById("logout-btn");
 
+/*
+
+if(isPresent == true){
+                let deleted = fav_data.filter(el => {
+                    if(el.id == element.id){
+                        return false;
+                    }else{
+                        return true;
+                    }
+                })
+                fav_data = deleted;
+                localStorage.setItem("favourite", JSON.stringify(fav_data));
+            }
+
+*/
+
+
+
 logoutBtn.addEventListener("click", () => {
+    let updated = userData.filter(user => {
+        if(user.email == currentUser.email){
+            return false;
+        }else{
+            return true;
+        }
+    })
+    userData = updated;
+    userData.push(currentUser);
     currentUser = null;
     localStorage.setItem("current-user", JSON.stringify(currentUser));
+    localStorage.setItem("user", JSON.stringify(userData));
     window.location.href = "./index.html";
 })
 
