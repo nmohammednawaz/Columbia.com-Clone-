@@ -19,3 +19,18 @@ Faizan Shaikh - (fp09_060)
 Madhura Vinod Tatte - (fw22_0294)
 Satyanand Shrivastava - (fw24_732)
 Fija Jahangir Shaikh - (fp08_122).
+
+
+
+How to Install:-
+
+Website Link: https://fabricacom.netlify.app/
+
+Texh stack Used:-
+HTML
+CSS
+JAVASRIPT
+
+Backend:-
+JSON Server
+localStorage
